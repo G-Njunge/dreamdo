@@ -1,3 +1,5 @@
+/* PAGE DISABLED — temporarily commented out (single-page scroll mode)
+
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { useTranslations } from "next-intl";
@@ -82,4 +84,15 @@ export default function BlogPostPage({
       </section>
     </>
   );
+}
+
+*/
+
+// Minimal stub — Next.js requires a default export from page.tsx
+export function generateStaticParams() {
+  return [];
+}
+
+export default function Page() {
+  return null;
 }

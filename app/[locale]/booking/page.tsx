@@ -1,3 +1,5 @@
+/* PAGE DISABLED — temporarily commented out (single-page scroll mode)
+
 import type { Metadata } from "next";
 import { useTranslations } from "next-intl";
 import { getTranslations } from "next-intl/server";
@@ -14,7 +16,6 @@ export default function BookingPage() {
 
   return (
     <>
-      {/* Hero */}
       <section className="py-16 border-b border-[#E8DDD3]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h1 className="text-4xl sm:text-5xl font-extrabold text-gray-900">{t("hero.title")}</h1>
@@ -25,13 +26,9 @@ export default function BookingPage() {
       <section className="py-16 bg-brand-beigeAlt">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-10 items-start">
-
-            {/* Form */}
             <div className="lg:col-span-2 bg-white rounded-2xl border border-gray-200 shadow-sm p-8">
               <BookingForm />
             </div>
-
-            {/* Sidebar visual — calendar icon matching mockup */}
             <div className="bg-white rounded-2xl border border-gray-200 shadow-sm p-8 flex flex-col items-center text-center gap-4">
               <div className="w-20 h-20 rounded-2xl bg-blue-50 flex items-center justify-center text-4xl">
                 📅
@@ -59,4 +56,11 @@ export default function BookingPage() {
       </section>
     </>
   );
+}
+
+*/
+
+// Minimal stub — Next.js requires a default export from page.tsx
+export default function Page() {
+  return null;
 }

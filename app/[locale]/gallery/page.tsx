@@ -1,3 +1,5 @@
+/* PAGE DISABLED — temporarily commented out (single-page scroll mode)
+
 "use client";
 
 import Image from "next/image";
@@ -31,7 +33,6 @@ export default function GalleryPage() {
 
   return (
     <>
-      {/* Hero */}
       <section className="py-16 border-b border-[#E8DDD3]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h1 className="text-4xl sm:text-5xl font-extrabold text-gray-900">{t("hero.title")}</h1>
@@ -41,12 +42,9 @@ export default function GalleryPage() {
 
       <section className="py-12">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          {/* Placeholder notice */}
           <p className="text-center text-xs text-amber-700 bg-amber-50 border border-amber-100 rounded-lg p-3 mb-8 max-w-xl mx-auto">
             {t("placeholderNote")}
           </p>
-
-          {/* Category tabs — matching the mockup's bottom tab bar */}
           <div className="flex items-center gap-2 justify-center flex-wrap mb-10">
             {tabs.map((cat) => (
               <button
@@ -62,15 +60,12 @@ export default function GalleryPage() {
               </button>
             ))}
           </div>
-
-          {/* Grid */}
           <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
             {filtered.map((item, i) => (
               <div
                 key={i}
                 className="group relative rounded-2xl overflow-hidden aspect-square bg-gray-100 border border-gray-200 hover:shadow-lg transition-all"
               >
-                {/* PLACEHOLDER IMAGE — replace once parental consent obtained */}
                 <Image
                   src="/placeholder-hero.jpg"
                   alt={item.label}
@@ -87,4 +82,11 @@ export default function GalleryPage() {
       </section>
     </>
   );
+}
+
+*/
+
+// Minimal stub — Next.js requires a default export from page.tsx
+export default function Page() {
+  return null;
 }

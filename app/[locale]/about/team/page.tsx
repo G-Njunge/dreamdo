@@ -1,3 +1,5 @@
+/* PAGE DISABLED — temporarily commented out (single-page scroll mode)
+
 import type { Metadata } from "next";
 import { useTranslations } from "next-intl";
 import { getTranslations } from "next-intl/server";
@@ -20,7 +22,6 @@ export default function TeamPage() {
 
   return (
     <>
-      {/* Hero */}
       <section className="bg-brand-blue py-20 text-white text-center">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <h1 className="text-4xl sm:text-5xl font-extrabold">{t("hero.title")}</h1>
@@ -28,13 +29,11 @@ export default function TeamPage() {
         </div>
       </section>
 
-      {/* Founder */}
       <section className="py-20">
         <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="section-title text-center mb-12">{t("founder.title")}</h2>
           <div className="flex flex-col md:flex-row gap-10 items-start">
             <div className="flex-shrink-0 mx-auto md:mx-0">
-              {/* PLACEHOLDER IMAGE — replace once parental consent obtained */}
               <div className="w-48 h-48 rounded-full overflow-hidden bg-gray-200 border-4 border-brand-blue">
                 <Image
                   src="/placeholder-hero.jpg"
@@ -58,7 +57,6 @@ export default function TeamPage() {
         </div>
       </section>
 
-      {/* Team Grid */}
       <section className="py-20 bg-brand-beigeAlt">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="section-title text-center mb-3">{t("team.title")}</h2>
@@ -69,7 +67,6 @@ export default function TeamPage() {
                 key={member.name}
                 className="bg-white rounded-2xl shadow-sm border border-gray-100 p-6 text-center hover:shadow-md transition"
               >
-                {/* PLACEHOLDER IMAGE — replace once parental consent obtained */}
                 <div className="w-20 h-20 rounded-full bg-blue-100 mx-auto mb-4 overflow-hidden">
                   <Image
                     src="/placeholder-hero.jpg"
@@ -88,4 +85,11 @@ export default function TeamPage() {
       </section>
     </>
   );
+}
+
+*/
+
+// Minimal stub — Next.js requires a default export from page.tsx
+export default function Page() {
+  return null;
 }

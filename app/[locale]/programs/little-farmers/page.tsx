@@ -1,3 +1,5 @@
+/* PAGE DISABLED — temporarily commented out (single-page scroll mode)
+
 import type { Metadata } from "next";
 import { useTranslations } from "next-intl";
 import { getTranslations } from "next-intl/server";
@@ -23,4 +25,11 @@ export default function LittleFarmersPage() {
       icon="🌱"
     />
   );
+}
+
+*/
+
+// Minimal stub — Next.js requires a default export from page.tsx
+export default function Page() {
+  return null;
 }

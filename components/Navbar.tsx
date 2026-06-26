@@ -51,48 +51,15 @@ export default function Navbar() {
             {t("about")}
           </a>
 
-          {/* Services dropdown */}
-          <div
-            className="relative"
-            onMouseEnter={() => setDropdown("services")}
-            onMouseLeave={() => setDropdown(null)}
-          >
-            <button
-              className={`flex items-center gap-1 text-sm font-medium transition hover:text-brand-blue ${
-                isActive("/programs") ? "text-brand-blue border-b-2 border-brand-blue pb-0.5" : "text-gray-700"
-              }`}
-            >
-              {t("programs")}
-              <svg className="w-3 h-3 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M19 9l-7 7-7-7" />
-              </svg>
-            </button>
-            {dropdown === "services" && (
-              <div className="absolute top-full left-1/2 -translate-x-1/2 mt-2 w-52 bg-white rounded-xl shadow-lg border border-gray-100 py-2 z-50">
-                <a href="/#programs" className="block px-4 py-2 text-sm font-semibold text-brand-blue hover:bg-blue-50 transition" onClick={() => setDropdown(null)}>
-                  All Services
-                </a>
-                <div className="border-t border-gray-100 my-1" />
-                <a href="/#programs" className="block px-4 py-2 text-sm hover:bg-blue-50 hover:text-brand-blue transition" onClick={() => setDropdown(null)}>
-                  {t("programsSub.littleFarmers")}
-                </a>
-                <a href="/#programs" className="block px-4 py-2 text-sm hover:bg-blue-50 hover:text-brand-blue transition" onClick={() => setDropdown(null)}>
-                  {t("programsSub.aiExplorers")}
-                </a>
-                <a href="/#programs" className="block px-4 py-2 text-sm hover:bg-blue-50 hover:text-brand-blue transition" onClick={() => setDropdown(null)}>
-                  {t("programsSub.youngEntrepreneurs")}
-                </a>
-                <a href="/#programs" className="block px-4 py-2 text-sm hover:bg-blue-50 hover:text-brand-blue transition" onClick={() => setDropdown(null)}>
-                  {t("programsSub.pathways")}
-                </a>
-              </div>
-            )}
+          {/* ── DISABLED NAV LINKS (single-page: home + about only) ──────────────
+          <div className="relative" onMouseEnter={() => setDropdown("services")} onMouseLeave={() => setDropdown(null)}>
+            Programs dropdown
           </div>
-
-          <a href="/#gallery" className="text-sm font-medium text-gray-700 transition hover:text-brand-blue">{t("gallery")}</a>
-          <a href="/#blog" className="text-sm font-medium text-gray-700 transition hover:text-brand-blue">{t("blog")}</a>
-          <a href="/#pricing" className="text-sm font-medium text-gray-700 transition hover:text-brand-blue">Pricing</a>
-          <a href="/#contact" className="text-sm font-medium text-gray-700 transition hover:text-brand-blue">{t("contact")}</a>
+          <a href="/#gallery">Gallery</a>
+          <a href="/#blog">Blog</a>
+          <a href="/#pricing">Pricing</a>
+          <a href="/#contact">Contact</a>
+          ── END DISABLED ── */}
 
         </nav>
 
@@ -100,7 +67,7 @@ export default function Navbar() {
         <div className="hidden lg:flex items-center gap-4 flex-shrink-0">
           <LanguageSwitcher />
           <a
-            href="/#contact"
+            href="/#about"
             className="inline-flex items-center justify-center px-5 py-2 rounded-lg bg-brand-orange text-white font-semibold text-sm hover:bg-orange-600 transition whitespace-nowrap"
           >
             {t("bookSession")}
@@ -130,20 +97,18 @@ export default function Navbar() {
           <nav className="flex flex-col pt-4 space-y-1 text-sm font-medium">
             <Link href="/" className="py-2.5 px-3 rounded-lg hover:bg-blue-50 text-gray-700 hover:text-brand-blue transition" onClick={() => setMobileOpen(false)}>{t("home")}</Link>
             <a href="/#about" className="py-2.5 px-3 rounded-lg hover:bg-blue-50 text-gray-700 hover:text-brand-blue transition" onClick={() => setMobileOpen(false)}>{t("about")}</a>
-            <a href="/#programs" className="py-2.5 px-3 rounded-lg hover:bg-blue-50 text-gray-700 hover:text-brand-blue transition" onClick={() => setMobileOpen(false)}>{t("programs")}</a>
-            <a href="/#programs" className="py-2.5 pl-7 pr-3 rounded-lg hover:bg-blue-50 text-gray-500 hover:text-brand-blue transition" onClick={() => setMobileOpen(false)}>{t("programsSub.littleFarmers")}</a>
-            <a href="/#programs" className="py-2.5 pl-7 pr-3 rounded-lg hover:bg-blue-50 text-gray-500 hover:text-brand-blue transition" onClick={() => setMobileOpen(false)}>{t("programsSub.aiExplorers")}</a>
-            <a href="/#programs" className="py-2.5 pl-7 pr-3 rounded-lg hover:bg-blue-50 text-gray-500 hover:text-brand-blue transition" onClick={() => setMobileOpen(false)}>{t("programsSub.youngEntrepreneurs")}</a>
-            <a href="/#programs" className="py-2.5 pl-7 pr-3 rounded-lg hover:bg-blue-50 text-gray-500 hover:text-brand-blue transition" onClick={() => setMobileOpen(false)}>{t("programsSub.pathways")}</a>
-            <a href="/#gallery" className="py-2.5 px-3 rounded-lg hover:bg-blue-50 text-gray-700 hover:text-brand-blue transition" onClick={() => setMobileOpen(false)}>{t("gallery")}</a>
-            <a href="/#blog" className="py-2.5 px-3 rounded-lg hover:bg-blue-50 text-gray-700 hover:text-brand-blue transition" onClick={() => setMobileOpen(false)}>{t("blog")}</a>
-            <a href="/#pricing" className="py-2.5 px-3 rounded-lg hover:bg-blue-50 text-gray-700 hover:text-brand-blue transition" onClick={() => setMobileOpen(false)}>Pricing</a>
-            <a href="/#contact" className="py-2.5 px-3 rounded-lg hover:bg-blue-50 text-gray-700 hover:text-brand-blue transition" onClick={() => setMobileOpen(false)}>{t("contact")}</a>
+            {/* ── DISABLED (single-page: home + about only) ──
+            <a href="/#programs">Programs</a>
+            <a href="/#gallery">Gallery</a>
+            <a href="/#blog">Blog</a>
+            <a href="/#pricing">Pricing</a>
+            <a href="/#contact">Contact</a>
+            ── END DISABLED ── */}
           </nav>
           <div className="mt-4 pt-4 border-t border-gray-100 flex items-center justify-between">
             <LanguageSwitcher />
             <a
-              href="/#contact"
+              href="/#about"
               className="inline-flex items-center justify-center px-5 py-2 rounded-lg bg-brand-orange text-white font-semibold text-sm hover:bg-orange-600 transition"
               onClick={() => setMobileOpen(false)}
             >

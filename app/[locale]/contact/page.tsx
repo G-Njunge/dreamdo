@@ -1,3 +1,5 @@
+/* PAGE DISABLED — temporarily commented out (single-page scroll mode)
+
 import type { Metadata } from "next";
 import { useTranslations } from "next-intl";
 import { getTranslations } from "next-intl/server";
@@ -14,7 +16,6 @@ export default function ContactPage() {
 
   return (
     <>
-      {/* Hero */}
       <section className="py-16 border-b border-[#E8DDD3]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h1 className="text-4xl sm:text-5xl font-extrabold text-gray-900">{t("hero.title")}</h1>
@@ -25,16 +26,12 @@ export default function ContactPage() {
       <section className="py-16 bg-brand-beigeAlt">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-5 gap-10">
-
-            {/* Form */}
             <div className="lg:col-span-3">
               <div className="bg-white rounded-2xl border border-gray-200 shadow-sm p-8">
                 <h2 className="text-xl font-bold text-gray-900 mb-6">Send us a message</h2>
                 <ContactForm />
               </div>
             </div>
-
-            {/* Info panel */}
             <aside className="lg:col-span-2 space-y-6">
               <div className="bg-white rounded-2xl border border-gray-200 shadow-sm p-7">
                 <h2 className="text-lg font-bold text-gray-900 mb-5">{t("info.title")}</h2>
@@ -75,8 +72,6 @@ export default function ContactPage() {
                   </li>
                 </ul>
               </div>
-
-              {/* Social links matching mockup */}
               <div className="bg-white rounded-2xl border border-gray-200 shadow-sm p-7">
                 <h3 className="font-bold text-gray-900 mb-4">{t("social.title")}</h3>
                 <div className="flex gap-3">
@@ -97,9 +92,6 @@ export default function ContactPage() {
                   </a>
                 </div>
               </div>
-
-              {/* Map placeholder */}
-              {/* TODO: add correct Google Maps embed URL when client confirms address */}
               <div className="bg-white rounded-2xl border border-gray-200 shadow-sm overflow-hidden h-48 flex items-center justify-center">
                 <div className="text-center text-gray-400 text-sm">
                   <span className="text-3xl block mb-2">📍</span>
@@ -112,4 +104,11 @@ export default function ContactPage() {
       </section>
     </>
   );
+}
+
+*/
+
+// Minimal stub — Next.js requires a default export from page.tsx
+export default function Page() {
+  return null;
 }

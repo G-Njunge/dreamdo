@@ -1,3 +1,5 @@
+/* PAGE DISABLED — temporarily commented out (single-page scroll mode)
+
 import type { Metadata } from "next";
 import { useTranslations } from "next-intl";
 import { getTranslations } from "next-intl/server";
@@ -32,7 +34,6 @@ export default function EventsPage() {
 
   return (
     <>
-      {/* Hero */}
       <section className="bg-brand-blue py-20 text-white text-center">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <h1 className="text-4xl sm:text-5xl font-extrabold">{t("hero.title")}</h1>
@@ -50,7 +51,6 @@ export default function EventsPage() {
                 key={event.id}
                 className="bg-white rounded-2xl border border-gray-100 shadow-sm p-7 flex flex-col sm:flex-row gap-6 hover:shadow-md transition"
               >
-                {/* Date badge */}
                 <div className="flex-shrink-0 text-center sm:w-24">
                   <div className="bg-brand-blue text-white rounded-xl p-3">
                     <p className="text-sm font-semibold uppercase">
@@ -61,7 +61,6 @@ export default function EventsPage() {
                     </p>
                   </div>
                 </div>
-
                 <div className="flex-1">
                   <div className="flex flex-wrap items-start gap-2 mb-2">
                     <h2 className="text-xl font-bold text-gray-900">{event.title}</h2>
@@ -88,4 +87,11 @@ export default function EventsPage() {
       </section>
     </>
   );
+}
+
+*/
+
+// Minimal stub — Next.js requires a default export from page.tsx
+export default function Page() {
+  return null;
 }

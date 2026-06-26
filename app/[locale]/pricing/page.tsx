@@ -1,3 +1,5 @@
+/* PAGE DISABLED — temporarily commented out (single-page scroll mode)
+
 // TODO: confirm final pricing structure with client — current tiers are placeholders.
 import type { Metadata } from "next";
 import { useTranslations } from "next-intl";
@@ -25,7 +27,6 @@ export default function PricingPage() {
 
   return (
     <>
-      {/* Hero */}
       <section className="py-16 border-b border-[#E8DDD3]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h1 className="text-4xl sm:text-5xl font-extrabold text-gray-900">{t("hero.title")}</h1>
@@ -35,12 +36,9 @@ export default function PricingPage() {
 
       <section className="py-20 bg-brand-beigeAlt">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-          {/* Placeholder notice */}
-          {/* TODO: confirm final pricing structure with client */}
           <div className="mb-12 max-w-2xl mx-auto bg-amber-50 border border-amber-200 rounded-xl p-4 text-amber-800 text-sm text-center">
             Pricing is indicative — final figures to be confirmed with the DreamDo team.
           </div>
-
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {tiers.map((tier) => (
               <div
@@ -56,7 +54,6 @@ export default function PricingPage() {
                     Most Popular
                   </span>
                 )}
-
                 <h3 className={`text-xl font-bold ${tier.highlight ? "text-white" : "text-gray-900"}`}>
                   {tier.name}
                 </h3>
@@ -71,7 +68,6 @@ export default function PricingPage() {
                 <p className={`text-sm leading-relaxed mb-6 ${tier.highlight ? "text-blue-100" : "text-gray-500"}`}>
                   {tier.description}
                 </p>
-
                 <ul className="space-y-3 flex-1">
                   {tier.features.map((f) => (
                     <li key={f} className="flex items-start gap-2.5 text-sm">
@@ -80,7 +76,6 @@ export default function PricingPage() {
                     </li>
                   ))}
                 </ul>
-
                 <Link
                   href="/contact"
                   className={`mt-8 flex items-center justify-center py-3 rounded-xl font-semibold text-sm transition ${
@@ -94,7 +89,6 @@ export default function PricingPage() {
               </div>
             ))}
           </div>
-
           <p className="text-center text-sm text-gray-400 mt-10">
             Need something different?{" "}
             <Link href="/contact" className="text-brand-blue hover:underline">
@@ -105,4 +99,11 @@ export default function PricingPage() {
       </section>
     </>
   );
+}
+
+*/
+
+// Minimal stub — Next.js requires a default export from page.tsx
+export default function Page() {
+  return null;
 }

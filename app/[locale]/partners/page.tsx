@@ -1,3 +1,5 @@
+/* PAGE DISABLED — temporarily commented out (single-page scroll mode)
+
 import type { Metadata } from "next";
 import { useTranslations } from "next-intl";
 import { getTranslations } from "next-intl/server";
@@ -23,7 +25,6 @@ export default function PartnersPage() {
 
   return (
     <>
-      {/* Hero */}
       <section className="bg-brand-blue py-20 text-white text-center">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <h1 className="text-4xl sm:text-5xl font-extrabold">{t("hero.title")}</h1>
@@ -31,14 +32,12 @@ export default function PartnersPage() {
         </div>
       </section>
 
-      {/* Intro */}
       <section className="py-16 bg-white">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <p className="text-lg text-gray-700 leading-relaxed">{t("intro")}</p>
         </div>
       </section>
 
-      {/* Partner Types */}
       <section className="py-16 bg-gray-50">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="section-title text-center mb-12">{t("partnerTypes.title")}</h2>
@@ -61,7 +60,6 @@ export default function PartnersPage() {
         </div>
       </section>
 
-      {/* Benefits */}
       <section className="py-16 bg-white">
         <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="section-title text-center mb-10">{t("benefits.title")}</h2>
@@ -79,7 +77,6 @@ export default function PartnersPage() {
         </div>
       </section>
 
-      {/* CTA */}
       <section className="py-20 bg-brand-orange text-center">
         <div className="max-w-3xl mx-auto px-4">
           <h2 className="text-3xl font-extrabold text-white mb-4">{t("cta.title")}</h2>
@@ -91,4 +88,11 @@ export default function PartnersPage() {
       </section>
     </>
   );
+}
+
+*/
+
+// Minimal stub — Next.js requires a default export from page.tsx
+export default function Page() {
+  return null;
 }

@@ -1,3 +1,5 @@
+/* PAGE DISABLED — temporarily commented out (single-page scroll mode)
+
 import type { Metadata } from "next";
 import { useTranslations } from "next-intl";
 import { getTranslations } from "next-intl/server";
@@ -22,7 +24,6 @@ export default function ImpactPage() {
 
   return (
     <>
-      {/* Hero */}
       <section className="bg-brand-blue py-20 text-white text-center">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <h1 className="text-4xl sm:text-5xl font-extrabold">{t("hero.title")}</h1>
@@ -30,8 +31,6 @@ export default function ImpactPage() {
         </div>
       </section>
 
-      {/* Stats */}
-      {/* TODO: Replace all placeholder numbers with confirmed figures from the client. */}
       <section className="py-20 bg-white">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-2 lg:grid-cols-4 gap-6">
@@ -44,12 +43,9 @@ export default function ImpactPage() {
         </div>
       </section>
 
-      {/* Testimonials */}
       <section className="py-20 bg-gray-50">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 space-y-16">
           <h2 className="section-title text-center">{t("testimonials.title")}</h2>
-
-          {/* Parents */}
           <div>
             <h3 className="text-xl font-bold text-brand-blue mb-6">
               {t("testimonials.parents.label")}
@@ -60,8 +56,6 @@ export default function ImpactPage() {
               ))}
             </div>
           </div>
-
-          {/* Students */}
           <div>
             <h3 className="text-xl font-bold text-green-700 mb-6">
               {t("testimonials.students.label")}
@@ -72,8 +66,6 @@ export default function ImpactPage() {
               ))}
             </div>
           </div>
-
-          {/* Employers */}
           <div>
             <h3 className="text-xl font-bold text-brand-orange mb-6">
               {t("testimonials.employers.label")}
@@ -88,4 +80,11 @@ export default function ImpactPage() {
       </section>
     </>
   );
+}
+
+*/
+
+// Minimal stub — Next.js requires a default export from page.tsx
+export default function Page() {
+  return null;
 }

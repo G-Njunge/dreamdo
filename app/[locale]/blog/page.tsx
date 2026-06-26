@@ -1,3 +1,5 @@
+/* PAGE DISABLED — temporarily commented out (single-page scroll mode)
+
 import type { Metadata } from "next";
 import { useTranslations } from "next-intl";
 import { getTranslations } from "next-intl/server";
@@ -24,7 +26,6 @@ export default function BlogPage() {
 
   return (
     <>
-      {/* Hero */}
       <section className="py-16 border-b border-[#E8DDD3]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h1 className="text-4xl sm:text-5xl font-extrabold text-gray-900">{t("hero.title")}</h1>
@@ -40,7 +41,6 @@ export default function BlogPage() {
                 key={post.slug}
                 className="group bg-white rounded-2xl border border-gray-200 overflow-hidden hover:shadow-lg hover:border-brand-blue transition-all flex flex-col"
               >
-                {/* PLACEHOLDER IMAGE — replace once parental consent obtained */}
                 <div className="relative h-48 bg-gray-100 overflow-hidden">
                   <Image
                     src="/placeholder-hero.jpg"
@@ -83,4 +83,11 @@ export default function BlogPage() {
       </section>
     </>
   );
+}
+
+*/
+
+// Minimal stub — Next.js requires a default export from page.tsx
+export default function Page() {
+  return null;
 }
