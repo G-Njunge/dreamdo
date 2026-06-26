@@ -22,6 +22,7 @@ function ProgramCard({
   style,
 }: {
   href: string;
+  imageSrc: string;
   imageAlt: string;
   ageRange: string;
   title: string;
@@ -45,9 +46,8 @@ function ProgramCard({
     >
       {/* Image */}
       <div style={{ flex: 1, position: "relative", minHeight: 0 }}>
-        {/* PLACEHOLDER IMAGE — replace once parental consent obtained */}
         <Image
-          src="/placeholder-hero.jpg"
+          src={imageSrc}
           alt={imageAlt}
           fill
           sizes="(max-width: 768px) 100vw, 50vw"
@@ -166,6 +166,7 @@ export default async function ProgramsPage({
           {/* Little Farmers — spans both rows */}
           <ProgramCard
             href="/programs/little-farmers"
+            imageSrc="/little farmer.jpeg"
             imageAlt="Little Farmers — children learning about plants"
             ageRange="Ages 6–10"
             title="Little Farmers"
@@ -176,6 +177,7 @@ export default async function ProgramsPage({
           {/* AI Explorers — top right */}
           <ProgramCard
             href="/programs/ai-explorers"
+            imageSrc="/placeholder-hero.jpg"
             imageAlt="AI Explorers — children coding"
             ageRange="Ages 10–14"
             title="AI Explorers"
@@ -186,6 +188,7 @@ export default async function ProgramsPage({
           <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 14 }}>
             <ProgramCard
               href="/programs/young-entrepreneurs"
+              imageSrc="/young entrepreneurs.jpeg"
               imageAlt="Young Entrepreneurs — students presenting ideas"
               ageRange="Ages 12–16"
               title="Young Entrepreneurs"
@@ -194,6 +197,7 @@ export default async function ProgramsPage({
             />
             <ProgramCard
               href="/programs/pathways"
+              imageSrc="/placeholder-hero.jpg"
               imageAlt="DreamDo Pathways — high school mentorship"
               ageRange="Ages 14–18"
               title="DreamDo Pathways"
