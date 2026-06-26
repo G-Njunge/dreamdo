@@ -477,10 +477,10 @@ export default function HomeClient() {
       {/* ═══ ABOUT (full section with hero, mission/vision, core values, problem/solution) ═══ */}
       <AboutSection />
 
-      {/* ═══ PROGRAMS (bento-grid) ═══════════════════════════════════════════ */}
-      <ProgramsSection />
+      {/* ═══ PROGRAMS, BLOG, PRICING, CONTACT — DISABLED (single-page: home + about only) ══ */}
+      {false && (
+      <>
 
-      {false && (<>
       {/* ═══ PROGRAMS ═══════════════════════════════════════════════════════ */}
       <section id="programs" className="py-24" style={{ backgroundColor: "#EEF2FF" }}>
         <div className="max-w-6xl mx-auto px-6 lg:px-10">
@@ -640,6 +640,9 @@ export default function HomeClient() {
         </div>
       </section>
       </>)}
+
+      </>
+      )}
 
     </>
   );
