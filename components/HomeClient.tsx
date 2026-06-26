@@ -150,14 +150,14 @@ const NOTES: NoteData[] = [
 ];
 
 // ─── Decoratives ──────────────────────────────────────────────────────────────
-const StarDecor = ({ className }: { className?: string }) => (
-  <svg className={className} viewBox="0 0 20 20" fill="currentColor">
+const StarDecor = ({ className, style }: { className?: string; style?: React.CSSProperties }) => (
+  <svg className={className} style={style} viewBox="0 0 20 20" fill="currentColor">
     <path d="M10 1l2.2 5.6 5.8.5-4.4 4 1.4 5.9L10 14.2l-5 2.8 1.4-5.9L2 7.1l5.8-.5z" />
   </svg>
 );
 
-const SparkleDecor = ({ className }: { className?: string }) => (
-  <svg className={className} viewBox="0 0 16 16" fill="currentColor">
+const SparkleDecor = ({ className, style }: { className?: string; style?: React.CSSProperties }) => (
+  <svg className={className} style={style} viewBox="0 0 16 16" fill="currentColor">
     <path d="M8 0l1.4 5.6L15 8l-5.6 1.4L8 15l-1.4-5.6L1 8l5.6-1.4z" />
   </svg>
 );

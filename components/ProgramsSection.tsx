@@ -4,6 +4,7 @@ import Image from "next/image";
 
 function ProgramCard({
   href,
+  imageSrc,
   imageAlt,
   ageRange,
   title,

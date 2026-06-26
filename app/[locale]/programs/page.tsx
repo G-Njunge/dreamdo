@@ -15,6 +15,7 @@ export async function generateMetadata({
 // ── Card component ────────────────────────────────────────────────────────────
 function ProgramCard({
   href,
+  imageSrc,
   imageAlt,
   ageRange,
   title,
