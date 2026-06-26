@@ -1,0 +1,84 @@
+{
+  "hero": {
+    "tagline": "The Launchpad for Africa's Next Generation of Doers.",
+    "subhead": "A children's professional development platform where young people gain real-world experience in agriculture, AI, entrepreneurship, and life skills to build confidence, purpose, and future readiness.",
+    "ctaPrograms": "Our Programs",
+    "ctaBook": "Book a Session"
+  },
+  "mission": {
+    "title": "Who We Are",
+    "missionLabel": "Mission",
+    "missionText": "Empowering children and youth through experiential learning, entrepreneurship, agriculture, technology, and career exploration to become confident problem-solvers and future leaders.",
+    "visionLabel": "Vision",
+    "visionText": "A generation of African young people equipped with the skills, mindset, and opportunities to create thriving communities and sustainable futures.",
+    "valuesLabel": "Core Values",
+    "values": [
+      "Learning by Doing",
+      "Creativity",
+      "Responsibility",
+      "Innovation",
+      "Community",
+      "Sustainability"
+    ]
+  },
+  "audience": {
+    "title": "Who We Serve",
+    "parent": {
+      "label": "I Am a Parent",
+      "cta": "Register My Child"
+    },
+    "school": {
+      "label": "I Am a School",
+      "cta": "Partner With Us"
+    },
+    "employer": {
+      "label": "I Am an Employer",
+      "cta": "Host Students"
+    },
+    "sponsor": {
+      "label": "I Am a Sponsor",
+      "cta": "Support DreamDo"
+    }
+  },
+  "programs": {
+    "title": "Our Programs",
+    "subtitle": "Hands-on learning pathways designed for every stage of childhood and youth development.",
+    "viewAll": "View All Programs"
+  },
+  "impact": {
+    "title": "Our Impact",
+    "subtitle": "Real numbers from real communities.",
+    "viewFull": "See Full Impact Report",
+    "stats": [
+      { "number": "500+", "label": "Learners Reached" },
+      { "number": "20+", "label": "Schools Engaged" },
+      { "number": "15+", "label": "Employer Partners" }
+    ]
+  },
+  "testimonials": {
+    "title": "What People Are Saying",
+    "viewAll": "Read More Stories",
+    "items": [
+      {
+        "quote": "DreamDo transformed my daughter's confidence. She now talks about starting her own business someday!",
+        "name": "Amina K.",
+        "role": "Parent"
+      },
+      {
+        "quote": "The AI Explorers program gave our students a head start in digital skills that we simply couldn't provide in the classroom.",
+        "name": "Mr. Osei",
+        "role": "Teacher"
+      },
+      {
+        "quote": "As an employer, I've seen firsthand how DreamDo graduates arrive workplace-ready with real problem-solving skills.",
+        "name": "Grace M.",
+        "role": "Employer Partner"
+      }
+    ]
+  },
+  "finalCta": {
+    "title": "Ready to help your child dream and do?",
+    "subtitle": "Join hundreds of families already investing in their children's future.",
+    "cta": "Book a Session Today"
+  }
+}

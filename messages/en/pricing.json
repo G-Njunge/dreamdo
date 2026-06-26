@@ -1,0 +1,48 @@
+{
+  "hero": {
+    "title": "Pricing",
+    "subtitle": "Choose the plan that fits your needs."
+  },
+  "note": "TODO: confirm final pricing structure with client — current tiers are placeholders.",
+  "tiers": [
+    {
+      "name": "Individual",
+      "price": "From KES 5,000",
+      "period": "per term",
+      "description": "Perfect for one child enrolling in a single DreamDo program.",
+      "features": [
+        "One program per term",
+        "Learning kit included",
+        "Certificate of completion",
+        "Parent progress updates"
+      ]
+    },
+    {
+      "name": "School",
+      "price": "From KES 30,000",
+      "period": "per term",
+      "description": "Bring DreamDo to your school with a group enrollment for up to 30 students.",
+      "features": [
+        "Group enrollment (up to 30 students)",
+        "On-site sessions available",
+        "Teacher facilitation guide",
+        "End-of-term showcase",
+        "School co-branding"
+      ],
+      "highlight": true
+    },
+    {
+      "name": "Organisation",
+      "price": "Custom",
+      "period": "contact us",
+      "description": "For NGOs, employers, and institutions running DreamDo at scale.",
+      "features": [
+        "Unlimited participants",
+        "Custom program design",
+        "Dedicated account manager",
+        "Impact reporting",
+        "Co-branding & CSR recognition"
+      ]
+    }
+  ]
+}

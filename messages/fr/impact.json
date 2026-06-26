@@ -1,0 +1,61 @@
+{
+  "hero": {
+    "title": "Notre Impact",
+    "subtitle": "Chaque chiffre représente un jeune dont la vie a été transformée."
+  },
+  "statsNote": "TODO: Remplacer tous les chiffres indicatifs par les chiffres confirmés du client.",
+  "stats": [
+    { "number": "500+", "label": "Apprenants Touchés" },
+    { "number": "20+", "label": "Écoles Engagées" },
+    { "number": "15+", "label": "Partenaires Employeurs" },
+    { "number": "30+", "label": "Projets Communautaires Réalisés" }
+  ],
+  "testimonials": {
+    "title": "Histoires de Changement",
+    "parents": {
+      "label": "Témoignages de Parents",
+      "items": [
+        {
+          "quote": "DreamDo a transformé la confiance de ma fille. Elle parle maintenant de créer sa propre entreprise — et je la crois.",
+          "name": "Amina K.",
+          "role": "Parent, Nairobi"
+        },
+        {
+          "quote": "Mon fils était timide et réticent à s'engager à l'école. Après deux trimestres à DreamDo, il dirige des projets de groupe.",
+          "name": "David O.",
+          "role": "Parent"
+        }
+      ]
+    },
+    "students": {
+      "label": "Histoires de Réussite d'Étudiants",
+      "items": [
+        {
+          "quote": "Je ne pensais pas pouvoir coder. Maintenant je construis une application pour aider ma mère à suivre les ventes de sa petite entreprise.",
+          "name": "Kwame A.",
+          "role": "Diplômé Explorateurs IA, 13 ans"
+        },
+        {
+          "quote": "Le programme Petits Agriculteurs m'a fait réaliser que l'agriculture n'est pas réservée aux personnes âgées. Elle peut être moderne et passionnante !",
+          "name": "Zara M.",
+          "role": "Participante Petits Agriculteurs, 9 ans"
+        }
+      ]
+    },
+    "employers": {
+      "label": "Témoignages d'Employeurs",
+      "items": [
+        {
+          "quote": "En tant qu'employeur, j'ai pu constater comment les diplômés DreamDo arrivent prêts au travail. Leur état d'esprit de résolution de problèmes les distingue.",
+          "name": "Grace M.",
+          "role": "PDG, AgriVenture Kenya"
+        },
+        {
+          "quote": "Nous avons accueilli trois étudiants Parcours le trimestre dernier. Deux sont maintenant sur notre liste de stagiaires.",
+          "name": "James T.",
+          "role": "Directeur RH, TechBridge Africa"
+        }
+      ]
+    }
+  }
+}

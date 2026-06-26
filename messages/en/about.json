@@ -1,0 +1,32 @@
+{
+  "hero": {
+    "title": "Empowering every child to build a brighter future.",
+    "subtitle": "DreamDo is dedicated to equipping children and youth with practical skills, mindset, and opportunities to help them dream, plan, and achieve."
+  },
+  "story": {
+    "title": "Our Story",
+    "problemLabel": "The Problem",
+    "problem": "Young people lack practical exposure and career guidance.",
+    "solutionLabel": "Our Solution",
+    "solution": "DreamDo connects children and youth with hands-on learning experiences that build skills, confidence, and real opportunities for the future."
+  },
+  "mission": {
+    "title": "Our Mission",
+    "text": "Empowering children and youth through experiential learning, entrepreneurship, agriculture, technology, and career exploration to become confident problem-solvers and future leaders."
+  },
+  "vision": {
+    "title": "Our Vision",
+    "text": "A generation of African young people equipped with the skills, mindset, and opportunities to create thriving communities and sustainable futures."
+  },
+  "values": {
+    "title": "Our Core Values",
+    "items": [
+      { "name": "Learning by Doing", "description": "We learn by practical experience and action." },
+      { "name": "Creativity", "description": "We encourage imagination, innovation, and original thinking." },
+      { "name": "Responsibility", "description": "We take ownership of our actions and contribute positively to our communities." },
+      { "name": "Innovation", "description": "We embrace new ideas and tools to solve real-world challenges." },
+      { "name": "Community", "description": "We believe in the power of teamwork and building strong networks." },
+      { "name": "Sustainability", "description": "We promote practices that protect our planet and ensure a better tomorrow." }
+    ]
+  }
+}

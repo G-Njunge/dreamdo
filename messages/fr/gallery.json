@@ -1,0 +1,14 @@
+{
+  "hero": {
+    "title": "Galerie",
+    "subtitle": "Aperçus de jeunes qui apprennent, construisent et grandissent avec DreamDo."
+  },
+  "categories": {
+    "all": "Tout",
+    "workshops": "Ateliers",
+    "learning": "Séances d'Apprentissage",
+    "activities": "Activités",
+    "events": "Événements"
+  },
+  "placeholderNote": "Les images de la galerie sont des espaces réservés. De vraies photos seront ajoutées une fois les formulaires de consentement parental collectés."
+}

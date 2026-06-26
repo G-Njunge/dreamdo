@@ -1,0 +1,157 @@
+"use client";
+
+import { useState } from "react";
+import Image from "next/image";
+import { useTranslations } from "next-intl";
+import { Link, usePathname } from "@/i18n/navigation";
+import LanguageSwitcher from "./LanguageSwitcher";
+
+type DropdownKey = "about" | "services" | null;
+
+export default function Navbar() {
+  const t = useTranslations("common.nav");
+  const pathname = usePathname();
+  const [mobileOpen, setMobileOpen] = useState(false);
+  const [dropdown, setDropdown] = useState<DropdownKey>(null);
+
+  const isActive = (href: string) => pathname === href || pathname.startsWith(href + "/");
+
+  const linkClass = (href: string) =>
+    `text-sm font-medium transition hover:text-brand-blue ${
+      isActive(href)
+        ? "text-brand-blue border-b-2 border-brand-blue pb-0.5"
+        : "text-gray-700"
+    }`;
+
+  return (
+    <header className="sticky top-0 z-50 bg-white border-b border-gray-100 shadow-sm" style={{ overflow: "visible" }}>
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-[100px] flex items-center justify-between gap-4">
+
+        {/* Logo */}
+        <Link href="/" className="flex-shrink-0 flex items-center">
+          <Image
+            src="/logo.png"
+            alt="DreamDo logo"
+            width={300}
+            height={84}
+            className="w-auto object-contain"
+            style={{ height: "84px" }}
+            priority
+          />
+        </Link>
+
+        {/* Desktop nav */}
+        <nav className="hidden lg:flex items-center gap-5" aria-label="Main navigation">
+
+          <Link href="/" className={linkClass("/")}>
+            {t("home")}
+          </Link>
+
+          <a href="/#about" className="text-sm font-medium text-gray-700 transition hover:text-brand-blue">
+            {t("about")}
+          </a>
+
+          {/* Services dropdown */}
+          <div
+            className="relative"
+            onMouseEnter={() => setDropdown("services")}
+            onMouseLeave={() => setDropdown(null)}
+          >
+            <button
+              className={`flex items-center gap-1 text-sm font-medium transition hover:text-brand-blue ${
+                isActive("/programs") ? "text-brand-blue border-b-2 border-brand-blue pb-0.5" : "text-gray-700"
+              }`}
+            >
+              {t("programs")}
+              <svg className="w-3 h-3 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M19 9l-7 7-7-7" />
+              </svg>
+            </button>
+            {dropdown === "services" && (
+              <div className="absolute top-full left-1/2 -translate-x-1/2 mt-2 w-52 bg-white rounded-xl shadow-lg border border-gray-100 py-2 z-50">
+                <a href="/#programs" className="block px-4 py-2 text-sm font-semibold text-brand-blue hover:bg-blue-50 transition" onClick={() => setDropdown(null)}>
+                  All Services
+                </a>
+                <div className="border-t border-gray-100 my-1" />
+                <a href="/#programs" className="block px-4 py-2 text-sm hover:bg-blue-50 hover:text-brand-blue transition" onClick={() => setDropdown(null)}>
+                  {t("programsSub.littleFarmers")}
+                </a>
+                <a href="/#programs" className="block px-4 py-2 text-sm hover:bg-blue-50 hover:text-brand-blue transition" onClick={() => setDropdown(null)}>
+                  {t("programsSub.aiExplorers")}
+                </a>
+                <a href="/#programs" className="block px-4 py-2 text-sm hover:bg-blue-50 hover:text-brand-blue transition" onClick={() => setDropdown(null)}>
+                  {t("programsSub.youngEntrepreneurs")}
+                </a>
+                <a href="/#programs" className="block px-4 py-2 text-sm hover:bg-blue-50 hover:text-brand-blue transition" onClick={() => setDropdown(null)}>
+                  {t("programsSub.pathways")}
+                </a>
+              </div>
+            )}
+          </div>
+
+          <a href="/#gallery" className="text-sm font-medium text-gray-700 transition hover:text-brand-blue">{t("gallery")}</a>
+          <a href="/#blog" className="text-sm font-medium text-gray-700 transition hover:text-brand-blue">{t("blog")}</a>
+          <a href="/#pricing" className="text-sm font-medium text-gray-700 transition hover:text-brand-blue">Pricing</a>
+          <a href="/#contact" className="text-sm font-medium text-gray-700 transition hover:text-brand-blue">{t("contact")}</a>
+
+        </nav>
+
+        {/* Right controls */}
+        <div className="hidden lg:flex items-center gap-4 flex-shrink-0">
+          <LanguageSwitcher />
+          <a
+            href="/#contact"
+            className="inline-flex items-center justify-center px-5 py-2 rounded-lg bg-brand-orange text-white font-semibold text-sm hover:bg-orange-600 transition whitespace-nowrap"
+          >
+            {t("bookSession")}
+          </a>
+        </div>
+
+        {/* Mobile hamburger */}
+        <button
+          className="lg:hidden p-2 rounded-lg text-gray-600 hover:bg-gray-100 transition"
+          onClick={() => setMobileOpen(!mobileOpen)}
+          aria-label="Toggle navigation menu"
+          aria-expanded={mobileOpen}
+        >
+          <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            {mobileOpen ? (
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
+            ) : (
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16M4 18h16" />
+            )}
+          </svg>
+        </button>
+      </div>
+
+      {/* Mobile menu */}
+      {mobileOpen && (
+        <div className="lg:hidden bg-white border-t border-gray-100 px-4 pb-6">
+          <nav className="flex flex-col pt-4 space-y-1 text-sm font-medium">
+            <Link href="/" className="py-2.5 px-3 rounded-lg hover:bg-blue-50 text-gray-700 hover:text-brand-blue transition" onClick={() => setMobileOpen(false)}>{t("home")}</Link>
+            <a href="/#about" className="py-2.5 px-3 rounded-lg hover:bg-blue-50 text-gray-700 hover:text-brand-blue transition" onClick={() => setMobileOpen(false)}>{t("about")}</a>
+            <a href="/#programs" className="py-2.5 px-3 rounded-lg hover:bg-blue-50 text-gray-700 hover:text-brand-blue transition" onClick={() => setMobileOpen(false)}>{t("programs")}</a>
+            <a href="/#programs" className="py-2.5 pl-7 pr-3 rounded-lg hover:bg-blue-50 text-gray-500 hover:text-brand-blue transition" onClick={() => setMobileOpen(false)}>{t("programsSub.littleFarmers")}</a>
+            <a href="/#programs" className="py-2.5 pl-7 pr-3 rounded-lg hover:bg-blue-50 text-gray-500 hover:text-brand-blue transition" onClick={() => setMobileOpen(false)}>{t("programsSub.aiExplorers")}</a>
+            <a href="/#programs" className="py-2.5 pl-7 pr-3 rounded-lg hover:bg-blue-50 text-gray-500 hover:text-brand-blue transition" onClick={() => setMobileOpen(false)}>{t("programsSub.youngEntrepreneurs")}</a>
+            <a href="/#programs" className="py-2.5 pl-7 pr-3 rounded-lg hover:bg-blue-50 text-gray-500 hover:text-brand-blue transition" onClick={() => setMobileOpen(false)}>{t("programsSub.pathways")}</a>
+            <a href="/#gallery" className="py-2.5 px-3 rounded-lg hover:bg-blue-50 text-gray-700 hover:text-brand-blue transition" onClick={() => setMobileOpen(false)}>{t("gallery")}</a>
+            <a href="/#blog" className="py-2.5 px-3 rounded-lg hover:bg-blue-50 text-gray-700 hover:text-brand-blue transition" onClick={() => setMobileOpen(false)}>{t("blog")}</a>
+            <a href="/#pricing" className="py-2.5 px-3 rounded-lg hover:bg-blue-50 text-gray-700 hover:text-brand-blue transition" onClick={() => setMobileOpen(false)}>Pricing</a>
+            <a href="/#contact" className="py-2.5 px-3 rounded-lg hover:bg-blue-50 text-gray-700 hover:text-brand-blue transition" onClick={() => setMobileOpen(false)}>{t("contact")}</a>
+          </nav>
+          <div className="mt-4 pt-4 border-t border-gray-100 flex items-center justify-between">
+            <LanguageSwitcher />
+            <a
+              href="/#contact"
+              className="inline-flex items-center justify-center px-5 py-2 rounded-lg bg-brand-orange text-white font-semibold text-sm hover:bg-orange-600 transition"
+              onClick={() => setMobileOpen(false)}
+            >
+              {t("bookSession")}
+            </a>
+          </div>
+        </div>
+      )}
+    </header>
+  );
+}

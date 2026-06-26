@@ -1,0 +1,58 @@
+{
+  "hero": {
+    "title": "Ressources d'Apprentissage",
+    "subtitle": "Des outils pour prolonger l'expérience DreamDo à la maison et en classe."
+  },
+  "intro": "Nos kits d'apprentissage et ressources pour parents sont conçus pour maintenir l'engagement des jeunes apprenants entre les séances.",
+  "categories": {
+    "kits": "Kits d'Apprentissage",
+    "guides": "Guides Parents & Enseignants",
+    "merch": "Produits DreamDo"
+  },
+  "items": [
+    {
+      "id": "little-farmers-kit",
+      "name": "Kit d'Activités Petits Agriculteurs",
+      "category": "kits",
+      "description": "Un kit complet avec sachets de graines, journal de plantation et guide illustré pour les enfants de 6–10 ans.",
+      "price": "KES 1 500"
+    },
+    {
+      "id": "ai-workbook",
+      "name": "Cahier d'Exercices Explorateurs IA",
+      "category": "kits",
+      "description": "Activités de codage étape par étape et défis IA pour les 10–14 ans.",
+      "price": "KES 900"
+    },
+    {
+      "id": "entrepreneur-guide",
+      "name": "Guide de Démarrage Jeune Entrepreneur",
+      "category": "guides",
+      "description": "Un cahier pratique de planification d'entreprise guidant les jeunes à travers l'idéation, l'étude de marché et leur premier pitch.",
+      "price": "KES 700"
+    },
+    {
+      "id": "parent-guide",
+      "name": "Guide Parent pour des Enfants Prêts pour l'Avenir",
+      "category": "guides",
+      "description": "Comment soutenir la croissance de votre enfant à la maison entre les séances DreamDo.",
+      "price": "KES 600"
+    },
+    {
+      "id": "starter-backpack",
+      "name": "Sac à Dos DreamDo",
+      "category": "merch",
+      "description": "Sac à dos robuste avec le logo DreamDo. Parfait pour les ateliers, les sorties et l'école.",
+      "price": "KES 2 000"
+    },
+    {
+      "id": "water-bottle",
+      "name": "Gourde DreamDo",
+      "category": "merch",
+      "description": "Gourde en acier inoxydable. Portez vos rêves partout.",
+      "price": "KES 800"
+    }
+  ],
+  "orderCta": "Commander / Renseigner",
+  "note": "Tous les prix en shillings kényans (KES). Pour les commandes scolaires en gros, contactez-nous pour un devis."
+}

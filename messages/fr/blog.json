@@ -1,0 +1,41 @@
+{
+  "hero": {
+    "title": "Blog & Actualités",
+    "subtitle": "Insights, histoires et mises à jour de la communauté DreamDo."
+  },
+  "readMore": "Lire la Suite",
+  "backToBlog": "Retour au Blog",
+  "categories": {
+    "all": "Tout",
+    "news": "Actualités",
+    "stories": "Histoires",
+    "resources": "Ressources",
+    "events": "Événements"
+  },
+  "posts": [
+    {
+      "slug": "why-hands-on-learning-matters",
+      "title": "Pourquoi l'Apprentissage Pratique Compte Plus que Jamais",
+      "date": "2024-05-10",
+      "category": "resources",
+      "excerpt": "La recherche montre systématiquement que l'apprentissage expérientiel conduit à une rétention plus profonde et à une application dans le monde réel.",
+      "content": "L'apprentissage expérientiel — ou 'apprendre en faisant' — n'est pas un concept nouveau. Des décennies de recherche ont confirmé que les élèves qui s'engagent physiquement et émotionnellement avec la matière la retiennent bien mieux que ceux qui se contentent d'écouter ou de lire.\n\nChez DreamDo, nous construisons chaque programme autour de ce principe. Que ce soit un enfant qui plante des graines dans Petits Agriculteurs, qui construit un modèle d'IA simple dans Explorateurs IA, ou qui présente un business plan dans Jeunes Entrepreneurs — ils sont les protagonistes de leur propre histoire d'apprentissage."
+    },
+    {
+      "slug": "dreamdo-little-farmers-harvest-day",
+      "title": "Jour de Récolte : Les Petits Agriculteurs Célèbrent Leur Première Culture",
+      "date": "2024-06-01",
+      "category": "stories",
+      "excerpt": "Vingt enfants de 6–9 ans ont célébré leur première récolte réussie lors de notre showcase de fin de trimestre Petits Agriculteurs.",
+      "content": "L'excitation était palpable. Vingt enfants, pour la plupart en première année du programme Petits Agriculteurs, se sont rassemblés dans le jardin pour récolter les légumes qu'ils avaient plantés huit semaines auparavant.\n\n'Je l'ai arrosé tous les jours,' dit une fillette de 7 ans en tenant une laitue presque aussi grande qu'elle. 'Elle m'a écoutée.'"
+    },
+    {
+      "slug": "ai-for-africa-why-we-start-young",
+      "title": "L'IA pour l'Afrique : Pourquoi Nous Commençons Tôt",
+      "date": "2024-07-15",
+      "category": "news",
+      "excerpt": "L'Afrique aura la population la plus jeune du monde d'ici 2030. Le programme Explorateurs IA de DreamDo est notre réponse.",
+      "content": "D'ici 2030, l'Afrique sera le foyer de la main-d'œuvre la plus grande et la plus jeune de la planète. C'est une opportunité extraordinaire — mais seulement si les jeunes qui entrent dans cette main-d'œuvre comprennent les technologies qui transforment chaque industrie.\n\nLe programme Explorateurs IA de DreamDo est conçu non pas pour créer des programmeurs (bien que certains le deviendront), mais pour créer des citoyens compétents en IA qui peuvent s'engager de manière critique et créative avec la technologie qui façonne leur monde."
+    }
+  ]
+}

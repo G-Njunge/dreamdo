@@ -1,0 +1,46 @@
+{
+  "hero": {
+    "title": "Collaborer avec DreamDo",
+    "subtitle": "Ensemble, nous pouvons équiper une génération. Rejoignez notre réseau croissant de partenaires."
+  },
+  "intro": "DreamDo collabore avec des écoles, des employeurs, des ONG, des institutions gouvernementales et des partenaires de développement qui partagent notre conviction que les jeunes Africains méritent de vraies opportunités de croissance.",
+  "partnerTypes": {
+    "title": "Avec Qui Nous Collaborons",
+    "schools": {
+      "name": "Écoles",
+      "description": "Intégrez les programmes DreamDo dans votre programme ou votre emploi du temps parascolaire."
+    },
+    "employers": {
+      "name": "Employeurs & Entreprises",
+      "description": "Accueillez des étudiants Parcours pour l'observation en entreprise, offrez des mentors ou co-concevez des opportunités de stage."
+    },
+    "ngos": {
+      "name": "ONG & Société Civile",
+      "description": "Alignez vos objectifs de développement des jeunes avec les programmes éprouvés de DreamDo."
+    },
+    "government": {
+      "name": "Institutions Gouvernementales",
+      "description": "Soutenez les priorités nationales de développement des jeunes grâce à des programmes évolutifs et fondés sur des preuves."
+    },
+    "development": {
+      "name": "Partenaires de Développement & Donateurs",
+      "description": "Financez des programmes qui produisent des résultats mesurables. Nous fournissons des rapports d'impact transparents."
+    }
+  },
+  "benefits": {
+    "title": "Pourquoi Collaborer Avec Nous",
+    "items": [
+      "Engagement communautaire et impact social visible",
+      "Alignement RSE avec le développement des jeunes et les objectifs éducatifs",
+      "Opportunités de mentorat pour votre équipe",
+      "Accès à des jeunes talentueux pour des stages et le recrutement",
+      "Co-branding et reconnaissance en tant que champion de la prochaine génération africaine",
+      "Rapports transparents sur les résultats des programmes"
+    ]
+  },
+  "cta": {
+    "title": "Prêt à Faire la Différence ?",
+    "subtitle": "Contactez notre équipe de partenariats pour explorer ce que nous pouvons construire ensemble.",
+    "button": "Devenir Partenaire"
+  }
+}

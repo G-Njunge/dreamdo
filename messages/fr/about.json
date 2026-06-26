@@ -1,0 +1,32 @@
+{
+  "hero": {
+    "title": "Permettre à chaque enfant de construire un avenir meilleur.",
+    "subtitle": "DreamDo est dédié à équiper les enfants et les jeunes de compétences pratiques, d'un état d'esprit et d'opportunités pour les aider à rêver, planifier et réaliser."
+  },
+  "story": {
+    "title": "Notre Histoire",
+    "problemLabel": "Le Problème",
+    "problem": "Les jeunes à travers l'Afrique obtiennent des diplômes mais manquent d'exposition pratique, d'orientation professionnelle et de l'expérience réelle nécessaire pour s'épanouir. Le fossé entre l'apprentissage en classe et les exigences de la vie moderne se creuse.",
+    "solutionLabel": "La Solution",
+    "solution": "DreamDo connecte les enfants et les jeunes à des expériences d'apprentissage pratiques en agriculture, IA, entrepreneuriat et compétences de vie. Nous comblons le fossé en plaçant les jeunes dans des environnements réels où ils peuvent expérimenter, échouer, apprendre et grandir."
+  },
+  "mission": {
+    "title": "Mission",
+    "text": "Autonomiser les enfants et les jeunes grâce à l'apprentissage expérientiel, l'entrepreneuriat, l'agriculture, la technologie et l'exploration de carrière pour devenir des résolveurs de problèmes confiants et des leaders de demain."
+  },
+  "vision": {
+    "title": "Vision",
+    "text": "Une génération de jeunes Africains dotés des compétences, de l'état d'esprit et des opportunités nécessaires pour créer des communautés florissantes et des avenirs durables."
+  },
+  "values": {
+    "title": "Valeurs Fondamentales",
+    "items": [
+      { "name": "Apprendre en Faisant", "description": "L'expérience est le meilleur enseignant. Chaque programme place les enfants en action." },
+      { "name": "Créativité", "description": "Nous cultivons la pensée originale et récompensons l'imagination à tous les niveaux." },
+      { "name": "Responsabilité", "description": "Les jeunes apprennent à assumer leurs actes et leur impact sur le monde." },
+      { "name": "Innovation", "description": "Nous adoptons de nouvelles idées et outils pour résoudre de vieux problèmes." },
+      { "name": "Communauté", "description": "Aucun enfant ne grandit seul. Nous construisons des réseaux de pairs, mentors et soutiens." },
+      { "name": "Durabilité", "description": "Tout ce que nous enseignons est conçu pour créer un changement positif durable." }
+    ]
+  }
+}

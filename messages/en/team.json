@@ -1,0 +1,24 @@
+{
+  "hero": {
+    "title": "Meet the Team",
+    "subtitle": "The people committed to making Africa's next generation dream and do."
+  },
+  "founder": {
+    "title": "Meet the Founder",
+    "name": "Founder Name",
+    "role": "Founder & CEO, DreamDo",
+    "story": "DreamDo was born from a simple observation: too many talented young Africans were finishing school without the practical skills, confidence, or professional exposure needed to turn their potential into impact. The founder set out to change that — one hands-on learning experience at a time.",
+    "motivation": "Growing up, I watched peers with enormous potential get held back not by lack of intelligence, but by lack of opportunity. DreamDo is the opportunity I wished existed — structured, practical, and designed to unlock what young people already have inside them.",
+    "vision": "I envision a continent where a child's ZIP code does not determine their destiny — where every young person, regardless of background, has access to the experiences they need to build a meaningful future."
+  },
+  "team": {
+    "title": "Our Team",
+    "placeholder": "Team bios coming soon. We're building something great — and hiring!",
+    "members": [
+      { "name": "Team Member 1", "role": "Program Coordinator" },
+      { "name": "Team Member 2", "role": "Digital Learning Lead" },
+      { "name": "Team Member 3", "role": "Agriculture & Environment Mentor" },
+      { "name": "Team Member 4", "role": "Partnerships & Community Manager" }
+    ]
+  }
+}

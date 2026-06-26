@@ -1,0 +1,31 @@
+{
+  "hero": {
+    "title": "Get In Touch",
+    "subtitle": "We'd love to hear from you. Reach out and we'll get back to you within 24 hours."
+  },
+  "form": {
+    "name": "Full Name",
+    "email": "Email Address",
+    "phone": "Phone Number (optional)",
+    "subject": "Subject",
+    "message": "Your Message",
+    "submit": "Send Message",
+    "success": "Thank you! Your message has been sent. We'll be in touch shortly.",
+    "error": "Something went wrong. Please try again or reach us on WhatsApp."
+  },
+  "info": {
+    "title": "Contact Information",
+    "email": "hello@dreamdo.africa",
+    "phone": "+254 700 000 000",
+    "whatsapp": "+254 700 000 000",
+    "location": "Nairobi, Kenya",
+    "hours": "Monday – Friday: 8:00 AM – 5:00 PM EAT"
+  },
+  "social": {
+    "title": "Follow Us",
+    "facebook": "DreamDo Africa",
+    "instagram": "@dreamdo_africa",
+    "linkedin": "DreamDo Africa"
+  },
+  "mapNote": "Google Maps embed — TODO: add correct embed URL when client confirms address."
+}

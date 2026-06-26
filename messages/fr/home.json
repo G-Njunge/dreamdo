@@ -1,0 +1,84 @@
+{
+  "hero": {
+    "tagline": "La Rampe de Lancement de la Prochaine Génération de Doers d'Afrique.",
+    "subhead": "Une plateforme de développement professionnel pour enfants où les jeunes acquièrent une expérience réelle en agriculture, IA, entrepreneuriat et compétences de vie pour bâtir confiance, sens et préparation à l'avenir.",
+    "ctaPrograms": "Nos Programmes",
+    "ctaBook": "Réserver une Séance"
+  },
+  "mission": {
+    "title": "Qui Sommes-Nous",
+    "missionLabel": "Mission",
+    "missionText": "Autonomiser les enfants et les jeunes grâce à l'apprentissage expérientiel, l'entrepreneuriat, l'agriculture, la technologie et l'exploration de carrière pour devenir des résolveurs de problèmes confiants et des leaders de demain.",
+    "visionLabel": "Vision",
+    "visionText": "Une génération de jeunes Africains dotés des compétences, de l'état d'esprit et des opportunités nécessaires pour créer des communautés florissantes et des avenirs durables.",
+    "valuesLabel": "Valeurs Fondamentales",
+    "values": [
+      "Apprendre en Faisant",
+      "Créativité",
+      "Responsabilité",
+      "Innovation",
+      "Communauté",
+      "Durabilité"
+    ]
+  },
+  "audience": {
+    "title": "Qui Nous Servons",
+    "parent": {
+      "label": "Je Suis un Parent",
+      "cta": "Inscrire Mon Enfant"
+    },
+    "school": {
+      "label": "Je Suis une École",
+      "cta": "Collaborer Avec Nous"
+    },
+    "employer": {
+      "label": "Je Suis un Employeur",
+      "cta": "Accueillir des Étudiants"
+    },
+    "sponsor": {
+      "label": "Je Suis un Sponsor",
+      "cta": "Soutenir DreamDo"
+    }
+  },
+  "programs": {
+    "title": "Nos Programmes",
+    "subtitle": "Des parcours d'apprentissage pratiques conçus pour chaque étape du développement de l'enfant et de la jeunesse.",
+    "viewAll": "Voir Tous les Programmes"
+  },
+  "impact": {
+    "title": "Notre Impact",
+    "subtitle": "Des chiffres réels issus de vraies communautés.",
+    "viewFull": "Voir le Rapport d'Impact Complet",
+    "stats": [
+      { "number": "500+", "label": "Apprenants Touchés" },
+      { "number": "20+", "label": "Écoles Engagées" },
+      { "number": "15+", "label": "Partenaires Employeurs" }
+    ]
+  },
+  "testimonials": {
+    "title": "Ce Que Les Gens Disent",
+    "viewAll": "Lire Plus de Témoignages",
+    "items": [
+      {
+        "quote": "DreamDo a transformé la confiance de ma fille. Elle parle maintenant de créer sa propre entreprise un jour !",
+        "name": "Amina K.",
+        "role": "Parent"
+      },
+      {
+        "quote": "Le programme AI Explorers a donné à nos élèves une longueur d'avance en compétences numériques que nous ne pouvions tout simplement pas offrir en classe.",
+        "name": "M. Osei",
+        "role": "Enseignant"
+      },
+      {
+        "quote": "En tant qu'employeur, j'ai pu constater de visu comment les diplômés DreamDo arrivent prêts pour le marché du travail.",
+        "name": "Grace M.",
+        "role": "Partenaire Employeur"
+      }
+    ]
+  },
+  "finalCta": {
+    "title": "Prêt à aider votre enfant à rêver et à agir ?",
+    "subtitle": "Rejoignez des centaines de familles qui investissent déjà dans l'avenir de leurs enfants.",
+    "cta": "Réserver une Séance Aujourd'hui"
+  }
+}

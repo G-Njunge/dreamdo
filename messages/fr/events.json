@@ -1,0 +1,35 @@
+{
+  "hero": {
+    "title": "Événements à Venir",
+    "subtitle": "Rejoignez-nous pour des ateliers, journées portes ouvertes et expériences d'apprentissage pour enfants et jeunes."
+  },
+  "registerInterest": "Manifester son Intérêt",
+  "noEvents": "Pas d'événements à venir pour le moment. Revenez bientôt ou abonnez-vous à notre newsletter.",
+  "events": [
+    {
+      "id": "little-farmers-holiday-camp",
+      "title": "Camp de Vacances Petits Agriculteurs",
+      "date": "2024-08-05",
+      "endDate": "2024-08-09",
+      "location": "Centre d'Apprentissage DreamDo, Nairobi",
+      "description": "Une semaine complète d'agriculture pratique, d'exploration de la nature et de cuisine pour les enfants de 6–10 ans. Places limitées.",
+      "program": "littleFarmers"
+    },
+    {
+      "id": "ai-explorers-open-day",
+      "title": "Journée Portes Ouvertes Explorateurs IA",
+      "date": "2024-08-17",
+      "location": "Hub Numérique DreamDo, Nairobi",
+      "description": "Une séance d'introduction pour les enfants de 10–14 ans et leurs parents. Rencontrez nos facilitateurs, essayez un mini défi de codage et apprenez comment s'inscrire.",
+      "program": "aiExplorers"
+    },
+    {
+      "id": "young-entrepreneurs-pitch-day",
+      "title": "Journée de Pitch Jeunes Entrepreneurs",
+      "date": "2024-09-07",
+      "location": "Nairobi Innovation Hub",
+      "description": "Regardez notre cohorte de Jeunes Entrepreneurs pitcher leurs idées d'affaires à un panel de juges et de mentors. Ouvert au public !",
+      "program": "youngEntrepreneurs"
+    }
+  ]
+}

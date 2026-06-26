@@ -1,0 +1,41 @@
+{
+  "hero": {
+    "title": "Blog & News",
+    "subtitle": "Insights, stories, and updates from the DreamDo community."
+  },
+  "readMore": "Read More",
+  "backToBlog": "Back to Blog",
+  "categories": {
+    "all": "All",
+    "news": "News",
+    "stories": "Stories",
+    "resources": "Resources",
+    "events": "Events"
+  },
+  "posts": [
+    {
+      "slug": "why-hands-on-learning-matters",
+      "title": "Why Hands-On Learning Matters More Than Ever",
+      "date": "2024-05-10",
+      "category": "resources",
+      "excerpt": "Research consistently shows that experiential learning leads to deeper retention and real-world application. Here's why DreamDo puts doing at the heart of everything we offer.",
+      "content": "Experiential learning — or 'learning by doing' — is not a new concept. John Dewey championed it in the early 20th century, and decades of research have confirmed that students who engage physically and emotionally with material retain it far better than those who simply listen or read.\n\nAt DreamDo, we build every program around this principle. Whether a child is planting seeds in Little Farmers, building a simple AI model in AI Explorers, or pitching a business plan in Young Entrepreneurs — they are the protagonist of their own learning story.\n\nThe outcomes speak for themselves. Children who participate in experiential programs develop not just knowledge, but the metacognitive skills to apply that knowledge in new contexts. They learn how to learn. And in a world where specific skills become obsolete but the ability to adapt endures, this is the most valuable gift we can give a young person."
+    },
+    {
+      "slug": "dreamdo-little-farmers-harvest-day",
+      "title": "Harvest Day: Little Farmers Celebrate Their First Crop",
+      "date": "2024-06-01",
+      "category": "stories",
+      "excerpt": "Twenty children aged 6–9 celebrated their first successful harvest at our Little Farmers end-of-term showcase. Here's what they learned — and what they taught us.",
+      "content": "The excitement was palpable. Twenty children, most of them in their first year of the Little Farmers program, gathered in the garden to harvest the vegetables they had planted eight weeks earlier.\n\nFor many, it was their first time seeing a vegetable pulled from the soil. For all of them, it was a moment of pride that no classroom could replicate.\n\n'I watered it every day,' said one 7-year-old, holding up a head of lettuce that was almost as big as her face. 'It listened to me.'\n\nThe harvest was more than a celebration. It was proof that responsibility, patience, and consistent effort produce real results — lessons the children will carry well beyond the garden."
+    },
+    {
+      "slug": "ai-for-africa-why-we-start-young",
+      "title": "AI for Africa: Why We Start Young",
+      "date": "2024-07-15",
+      "category": "news",
+      "excerpt": "Africa will have the world's youngest population by 2030. If we don't equip this generation with AI literacy now, we risk a new kind of digital divide. DreamDo's AI Explorers program is our answer.",
+      "content": "By 2030, Africa will be home to the largest and youngest workforce on the planet. This is an extraordinary opportunity — but only if the young people entering that workforce understand the technologies reshaping every industry.\n\nAI is no longer science fiction. It is already embedded in agriculture (precision farming), healthcare (diagnostic tools), finance (credit scoring), and logistics across the continent. Young people who understand these systems will be positioned to use them, adapt them, and eventually build their own.\n\nDreamDo's AI Explorers program is designed not to create programmers (though some will go on to become exactly that), but to create AI-literate citizens who can engage critically and creatively with the technology shaping their world."
+    }
+  ]
+}

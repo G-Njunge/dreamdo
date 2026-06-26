@@ -1,0 +1,48 @@
+{
+  "hero": {
+    "title": "Tarifs",
+    "subtitle": "Choisissez le forfait adapté à vos besoins."
+  },
+  "note": "TODO: confirmer la structure tarifaire définitive avec le client — les niveaux actuels sont des espaces réservés.",
+  "tiers": [
+    {
+      "name": "Individuel",
+      "price": "À partir de KES 5 000",
+      "period": "par trimestre",
+      "description": "Parfait pour un enfant s'inscrivant à un seul programme DreamDo.",
+      "features": [
+        "Un programme par trimestre",
+        "Kit d'apprentissage inclus",
+        "Certificat de réussite",
+        "Mises à jour parentales sur les progrès"
+      ]
+    },
+    {
+      "name": "École",
+      "price": "À partir de KES 30 000",
+      "period": "par trimestre",
+      "description": "Amenez DreamDo dans votre école avec une inscription de groupe pour jusqu'à 30 élèves.",
+      "features": [
+        "Inscription de groupe (jusqu'à 30 élèves)",
+        "Sessions sur site disponibles",
+        "Guide de facilitation pour enseignants",
+        "Showcase de fin de trimestre",
+        "Co-branding scolaire"
+      ],
+      "highlight": true
+    },
+    {
+      "name": "Organisation",
+      "price": "Sur mesure",
+      "period": "contactez-nous",
+      "description": "Pour les ONG, employeurs et institutions gérant DreamDo à grande échelle.",
+      "features": [
+        "Participants illimités",
+        "Conception de programme personnalisée",
+        "Gestionnaire de compte dédié",
+        "Rapport d'impact",
+        "Co-branding & reconnaissance RSE"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "hero": {
+    "title": "Gallery",
+    "subtitle": "Glimpses of young people learning, building, and growing with DreamDo."
+  },
+  "categories": {
+    "all": "All",
+    "workshops": "Workshops",
+    "learning": "Learning Sessions",
+    "activities": "Activities",
+    "events": "Events"
+  },
+  "placeholderNote": "Gallery images are placeholders. Real photos will be added once parental consent forms are collected."
+}

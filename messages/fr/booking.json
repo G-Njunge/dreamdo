@@ -1,0 +1,27 @@
+{
+  "hero": {
+    "title": "Réserver une Séance",
+    "subtitle": "Réservez la place de votre enfant dans un programme DreamDo."
+  },
+  "form": {
+    "parentName": "Nom Complet du Parent / Tuteur",
+    "childName": "Nom Complet de l'Enfant",
+    "email": "Adresse E-mail",
+    "phone": "Numéro de Téléphone",
+    "preferredDate": "Date de Début Préférée",
+    "program": "Programme / Service",
+    "programOptions": {
+      "placeholder": "Sélectionner un programme",
+      "littleFarmers": "Petits Agriculteurs (6–10 ans)",
+      "aiExplorers": "Explorateurs IA (10–14 ans)",
+      "youngEntrepreneurs": "Jeunes Entrepreneurs (12–16 ans)",
+      "pathways": "Parcours DreamDo — Immersion Professionnelle (14–18 ans)",
+      "school": "Demande de Partenariat Scolaire",
+      "other": "Autre / Pas encore sûr"
+    },
+    "message": "Notes Supplémentaires",
+    "submit": "Réserver Maintenant",
+    "success": "Réservation reçue ! Nous confirmerons votre séance par e-mail dans les 48 heures.",
+    "error": "Quelque chose s'est mal passé. Veuillez réessayer ou nous contacter sur WhatsApp."
+  }
+}

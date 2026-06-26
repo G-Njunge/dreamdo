@@ -1,0 +1,70 @@
+{
+  "hero": {
+    "title": "Nos Programmes",
+    "subtitle": "Quatre parcours. Une mission : équiper la jeunesse africaine des compétences pour s'épanouir."
+  },
+  "ageNote": "TODO: Confirmer la tranche d'âge générale avec le client — les programmes individuels couvrent les âges 6–18.",
+  "programs": {
+    "littleFarmers": {
+      "name": "Petits Agriculteurs",
+      "ageRange": "6–10 ans",
+      "duration": "Programme de 8 semaines",
+      "summary": "Apprentissage sensoriel, biologie végétale et amour de la nature.",
+      "description": "Les enfants de cet âge sont très curieux, adorent les activités pratiques et développent un sens des responsabilités. Petits Agriculteurs les connecte à la terre, enseignant la biologie végétale de base, les systèmes alimentaires et la gestion environnementale.",
+      "whyThisAge": "Les âges 6–10 sont les années clés pour l'exploration sensorielle et le développement d'habitudes durables. L'exposition à l'agriculture à ce stade développe la curiosité, la patience et une compréhension fondamentale de l'alimentation.",
+      "outcomes": [
+        "Compréhension de la biologie végétale de base et des cycles de croissance",
+        "Responsabilité à travers le soin des êtres vivants",
+        "Sensibilisation aux systèmes alimentaires durables",
+        "Travail d'équipe et confiance en plein air",
+        "Curiosité et amour de la nature"
+      ]
+    },
+    "aiExplorers": {
+      "name": "Explorateurs IA",
+      "ageRange": "10–14 ans",
+      "duration": "Programme de 10 semaines",
+      "summary": "Passer de la consommation de technologie à sa création.",
+      "description": "Ce groupe d'âge est prêt à passer de la consommation à la création technologique. Explorateurs IA introduit la logique numérique, les concepts de codage de base et la compréhension de l'intelligence artificielle — le tout via des interfaces visuelles, des jeux et des projets créatifs.",
+      "whyThisAge": "Les âges 10–14 marquent la transition de la pensée concrète à la pensée abstraite. Les élèves peuvent comprendre les relations de cause à effet dans le code et sont motivés par la créativité et la collaboration.",
+      "outcomes": [
+        "Introduction à la pensée computationnelle et à la logique numérique",
+        "Compétences en codage de base avec des outils visuels",
+        "Compréhension du fonctionnement de l'IA dans la vie quotidienne",
+        "Projets créatifs utilisant des outils numériques",
+        "Évaluation critique de l'impact de la technologie sur la société"
+      ]
+    },
+    "youngEntrepreneurs": {
+      "name": "Jeunes Entrepreneurs",
+      "ageRange": "12–16 ans",
+      "duration": "Programme de 12 semaines",
+      "summary": "Bases commerciales, littératie financière et pitching de grandes idées.",
+      "description": "Ce groupe d'âge développe sa pensée critique et sa conscience sociale. Jeunes Entrepreneurs guide les élèves à travers le processus de création d'entreprise — de l'identification d'un problème au pitch d'une solution.",
+      "whyThisAge": "Les âges 12–16 sont ceux où l'identité et l'ambition commencent à se solidifier. L'éducation entrepreneuriale structurée canalise leur énergie vers la résolution de problèmes et la responsabilité financière.",
+      "outcomes": [
+        "Compréhension des concepts commerciaux de base et de la littératie financière",
+        "Design thinking et résolution de problèmes centrée sur l'humain",
+        "Compétences en étude de marché et découverte client",
+        "Confiance en pitching et communication",
+        "Expérience de gestion d'une micro-entreprise ou d'un projet communautaire"
+      ]
+    },
+    "pathways": {
+      "name": "Parcours DreamDo",
+      "fullName": "Parcours DreamDo (Immersion Professionnelle)",
+      "ageRange": "14–18 ans",
+      "duration": "Engagement d'un semestre",
+      "summary": "Observation en entreprise, mentorat et résolution de problèmes réels.",
+      "description": "Les adolescents à ce stade réfléchissent activement à leur avenir. Parcours place les lycéens dans de vrais environnements industriels pour une exposition de carrière, un mentorat par des professionnels et des projets concrets.",
+      "whyThisAge": "Les âges 14–18 constituent une fenêtre critique pour l'exploration de carrière. Une exposition précoce à l'industrie augmente considérablement la confiance et la capacité d'un jeune à prendre des décisions éclairées.",
+      "outcomes": [
+        "Connaissances spécifiques à l'industrie et vocabulaire professionnel",
+        "Réseau professionnel de mentors et d'employeurs",
+        "Portfolio de projets réels",
+        "Préparation aux candidatures universitaires et professionnelles",
+        "Marque personnelle et compétences en entretien"
+      ]
+    }
+  }
+}

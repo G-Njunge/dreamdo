@@ -1,0 +1,35 @@
+{
+  "hero": {
+    "title": "Upcoming Events",
+    "subtitle": "Join us for workshops, open days, and learning experiences for children and youth."
+  },
+  "registerInterest": "Register Interest",
+  "noEvents": "No upcoming events at the moment. Check back soon or subscribe to our newsletter.",
+  "events": [
+    {
+      "id": "little-farmers-holiday-camp",
+      "title": "Little Farmers Holiday Camp",
+      "date": "2024-08-05",
+      "endDate": "2024-08-09",
+      "location": "DreamDo Learning Centre, Nairobi",
+      "description": "A full week of hands-on farming, nature exploration, and cooking for children aged 6–10. Limited spots available.",
+      "program": "littleFarmers"
+    },
+    {
+      "id": "ai-explorers-open-day",
+      "title": "AI Explorers Open Day",
+      "date": "2024-08-17",
+      "location": "DreamDo Digital Hub, Nairobi",
+      "description": "An introductory session for children aged 10–14 and their parents. Meet our facilitators, try a mini coding challenge, and learn how to enrol.",
+      "program": "aiExplorers"
+    },
+    {
+      "id": "young-entrepreneurs-pitch-day",
+      "title": "Young Entrepreneurs Pitch Day",
+      "date": "2024-09-07",
+      "location": "Nairobi Innovation Hub",
+      "description": "Watch our Young Entrepreneurs cohort pitch their business ideas to a panel of judges and industry mentors. Open to the public — come and cheer them on!",
+      "program": "youngEntrepreneurs"
+    }
+  ]
+}

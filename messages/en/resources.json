@@ -1,0 +1,58 @@
+{
+  "hero": {
+    "title": "Learning Resources",
+    "subtitle": "Tools to extend the DreamDo experience at home and in the classroom."
+  },
+  "intro": "Our learning kits and parent resources are designed to keep young learners engaged between sessions and give parents the tools to continue the conversation at home.",
+  "categories": {
+    "kits": "Learning Kits",
+    "guides": "Parent & Teacher Guides",
+    "merch": "DreamDo Gear"
+  },
+  "items": [
+    {
+      "id": "little-farmers-kit",
+      "name": "Little Farmers Activity Kit",
+      "category": "kits",
+      "description": "A complete hands-on kit with seed packets, a mini planting journal, and illustrated guide for children aged 6–10.",
+      "price": "KES 1,500"
+    },
+    {
+      "id": "ai-workbook",
+      "name": "AI Explorers Workbook",
+      "category": "kits",
+      "description": "Step-by-step coding activities and AI challenges for ages 10–14. No screen required — pairs with the online sessions.",
+      "price": "KES 900"
+    },
+    {
+      "id": "entrepreneur-guide",
+      "name": "Young Entrepreneur Starter Guide",
+      "category": "guides",
+      "description": "A practical business-planning workbook walking young people through ideation, market research, and their first pitch.",
+      "price": "KES 700"
+    },
+    {
+      "id": "parent-guide",
+      "name": "Parent's Guide to Future-Ready Kids",
+      "category": "guides",
+      "description": "How to support your child's growth at home between DreamDo sessions. Conversation prompts, activities, and milestone trackers included.",
+      "price": "KES 600"
+    },
+    {
+      "id": "starter-backpack",
+      "name": "DreamDo Starter Backpack",
+      "category": "merch",
+      "description": "Durable backpack branded with the DreamDo logo. Perfect for workshops, field days, and school.",
+      "price": "KES 2,000"
+    },
+    {
+      "id": "water-bottle",
+      "name": "DreamDo Water Bottle",
+      "category": "merch",
+      "description": "Stainless steel water bottle. Carry your dreams everywhere.",
+      "price": "KES 800"
+    }
+  ],
+  "orderCta": "Order / Enquire",
+  "note": "All prices in Kenyan Shillings (KES). For bulk school orders, contact us for pricing."
+}

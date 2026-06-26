@@ -1,0 +1,50 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About Us",
+    "aboutSub": {
+      "missionVision": "Mission & Vision",
+      "team": "Team"
+    },
+    "programs": "Services",
+    "programsSub": {
+      "littleFarmers": "Little Farmers",
+      "aiExplorers": "AI Explorers",
+      "youngEntrepreneurs": "Young Entrepreneurs",
+      "pathways": "Pathways"
+    },
+    "shop": "Shop",
+    "impact": "Impact",
+    "partners": "Partners",
+    "resources": "Resources",
+    "gallery": "Gallery",
+    "blog": "Blog",
+    "events": "Events",
+    "contact": "Contact",
+    "bookSession": "Book Appointment"
+  },
+  "footer": {
+    "tagline": "The Launchpad for Africa's Next Generation of Doers.",
+    "quickLinks": "Quick Links",
+    "programs": "Programs",
+    "connect": "Connect With Us",
+    "newsletter": "Stay Updated",
+    "newsletterPlaceholder": "Your email address",
+    "subscribe": "Subscribe",
+    "rights": "© 2024 DreamDo. All rights reserved.",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Use"
+  },
+  "whatsapp": {
+    "label": "Chat on WhatsApp"
+  },
+  "cta": {
+    "learnMore": "Learn More",
+    "viewProgram": "View Program",
+    "bookSession": "Book a Session",
+    "getStarted": "Get Started",
+    "contactUs": "Contact Us",
+    "becomePartner": "Become a Partner",
+    "registerInterest": "Register Interest"
+  }
+}

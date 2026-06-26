@@ -1,0 +1,50 @@
+{
+  "nav": {
+    "home": "Accueil",
+    "about": "À Propos",
+    "aboutSub": {
+      "missionVision": "Mission & Vision",
+      "team": "Équipe"
+    },
+    "programs": "Services",
+    "programsSub": {
+      "littleFarmers": "Petits Agriculteurs",
+      "aiExplorers": "Explorateurs IA",
+      "youngEntrepreneurs": "Jeunes Entrepreneurs",
+      "pathways": "Parcours"
+    },
+    "shop": "Boutique",
+    "impact": "Impact",
+    "partners": "Partenaires",
+    "resources": "Ressources",
+    "gallery": "Galerie",
+    "blog": "Blog",
+    "events": "Événements",
+    "contact": "Contact",
+    "bookSession": "Prendre RDV"
+  },
+  "footer": {
+    "tagline": "La Rampe de Lancement de la Prochaine Génération de Doers d'Afrique.",
+    "quickLinks": "Liens Rapides",
+    "programs": "Programmes",
+    "connect": "Nous Rejoindre",
+    "newsletter": "Restez Informé",
+    "newsletterPlaceholder": "Votre adresse e-mail",
+    "subscribe": "S'abonner",
+    "rights": "© 2024 DreamDo. Tous droits réservés.",
+    "privacy": "Politique de Confidentialité",
+    "terms": "Conditions d'Utilisation"
+  },
+  "whatsapp": {
+    "label": "Chatter sur WhatsApp"
+  },
+  "cta": {
+    "learnMore": "En Savoir Plus",
+    "viewProgram": "Voir le Programme",
+    "bookSession": "Réserver une Séance",
+    "getStarted": "Commencer",
+    "contactUs": "Nous Contacter",
+    "becomePartner": "Devenir Partenaire",
+    "registerInterest": "Manifester son Intérêt"
+  }
+}

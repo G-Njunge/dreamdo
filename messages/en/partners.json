@@ -1,0 +1,46 @@
+{
+  "hero": {
+    "title": "Partner With DreamDo",
+    "subtitle": "Together, we can equip a generation. Join our growing network of partners."
+  },
+  "intro": "DreamDo partners with schools, employers, NGOs, government institutions, and development partners who share our belief that Africa's young people deserve real opportunities to grow.",
+  "partnerTypes": {
+    "title": "Who We Partner With",
+    "schools": {
+      "name": "Schools",
+      "description": "Bring DreamDo programs into your curriculum or after-school schedule. Give your students structured, experiential learning that complements classroom education."
+    },
+    "employers": {
+      "name": "Employers & Businesses",
+      "description": "Host Pathways students for industry shadowing, offer mentors, or co-design internship opportunities. Build your talent pipeline while making a meaningful community impact."
+    },
+    "ngos": {
+      "name": "NGOs & Civil Society",
+      "description": "Align your youth development goals with DreamDo's proven programs. Co-implement projects, share resources, and expand reach together."
+    },
+    "government": {
+      "name": "Government Institutions",
+      "description": "Support national youth development priorities through scalable, evidence-based programming. We welcome policy dialogue and implementation partnerships."
+    },
+    "development": {
+      "name": "Development Partners & Donors",
+      "description": "Fund programs that deliver measurable outcomes. We provide transparent impact reporting and collaborate on program design aligned with your theory of change."
+    }
+  },
+  "benefits": {
+    "title": "Why Partner With Us",
+    "items": [
+      "Community engagement and visible social impact",
+      "CSR alignment with youth development and education goals",
+      "Mentorship opportunities for your team",
+      "Access to talented young people for internships and recruitment",
+      "Co-branding and recognition as a champion of Africa's next generation",
+      "Transparent reporting on program outcomes"
+    ]
+  },
+  "cta": {
+    "title": "Ready to Make an Impact?",
+    "subtitle": "Get in touch with our partnerships team to explore what we can build together.",
+    "button": "Become a Partner"
+  }
+}

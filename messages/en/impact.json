@@ -1,0 +1,61 @@
+{
+  "hero": {
+    "title": "Our Impact",
+    "subtitle": "Every number represents a young person whose life was changed."
+  },
+  "statsNote": "TODO: Replace all placeholder numbers with confirmed figures from the client.",
+  "stats": [
+    { "number": "500+", "label": "Learners Reached" },
+    { "number": "20+", "label": "Schools Engaged" },
+    { "number": "15+", "label": "Employer Partners" },
+    { "number": "30+", "label": "Community Projects Completed" }
+  ],
+  "testimonials": {
+    "title": "Stories of Change",
+    "parents": {
+      "label": "Parent Testimonials",
+      "items": [
+        {
+          "quote": "DreamDo transformed my daughter's confidence. She now talks about starting her own business someday — and I believe she will.",
+          "name": "Amina K.",
+          "role": "Parent, Nairobi"
+        },
+        {
+          "quote": "My son was shy and reluctant to engage in school. After two terms at DreamDo, he leads group projects. The change is remarkable.",
+          "name": "David O.",
+          "role": "Parent"
+        }
+      ]
+    },
+    "students": {
+      "label": "Student Success Stories",
+      "items": [
+        {
+          "quote": "I never thought I could code. Now I'm building a simple app to help my mom track her small business sales. DreamDo showed me I could.",
+          "name": "Kwame A.",
+          "role": "AI Explorers Graduate, Age 13"
+        },
+        {
+          "quote": "The Little Farmers program made me realise that farming isn't just for old people. It can be modern and exciting!",
+          "name": "Zara M.",
+          "role": "Little Farmers Participant, Age 9"
+        }
+      ]
+    },
+    "employers": {
+      "label": "Employer Testimonials",
+      "items": [
+        {
+          "quote": "As an employer, I've seen firsthand how DreamDo graduates arrive workplace-ready. Their problem-solving mindset and initiative set them apart.",
+          "name": "Grace M.",
+          "role": "CEO, AgriVenture Kenya"
+        },
+        {
+          "quote": "We hosted three Pathways students last quarter. Two are now on our internship shortlist. DreamDo delivered exactly what they promised.",
+          "name": "James T.",
+          "role": "HR Director, TechBridge Africa"
+        }
+      ]
+    }
+  }
+}

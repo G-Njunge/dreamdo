@@ -1,0 +1,31 @@
+{
+  "hero": {
+    "title": "Contactez-Nous",
+    "subtitle": "Nous serions ravis de vous entendre. Contactez-nous et nous vous répondrons dans les 24 heures."
+  },
+  "form": {
+    "name": "Nom Complet",
+    "email": "Adresse E-mail",
+    "phone": "Numéro de Téléphone (facultatif)",
+    "subject": "Sujet",
+    "message": "Votre Message",
+    "submit": "Envoyer le Message",
+    "success": "Merci ! Votre message a été envoyé. Nous vous contacterons sous peu.",
+    "error": "Quelque chose s'est mal passé. Veuillez réessayer ou nous contacter sur WhatsApp."
+  },
+  "info": {
+    "title": "Informations de Contact",
+    "email": "hello@dreamdo.africa",
+    "phone": "+254 700 000 000",
+    "whatsapp": "+254 700 000 000",
+    "location": "Nairobi, Kenya",
+    "hours": "Lundi – Vendredi : 8h00 – 17h00 EAT"
+  },
+  "social": {
+    "title": "Suivez-Nous",
+    "facebook": "DreamDo Africa",
+    "instagram": "@dreamdo_africa",
+    "linkedin": "DreamDo Africa"
+  },
+  "mapNote": "Intégration Google Maps — TODO: ajouter l'URL d'intégration correcte quand le client confirme l'adresse."
+}

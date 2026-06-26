@@ -1,0 +1,70 @@
+{
+  "hero": {
+    "title": "Our Programs",
+    "subtitle": "Four pathways. One mission: equipping Africa's youth with the skills to thrive."
+  },
+  "ageNote": "TODO: Confirm umbrella age range with client — individual programs span ages 6–18 but headline copy should reflect the agreed range.",
+  "programs": {
+    "littleFarmers": {
+      "name": "Little Farmers",
+      "ageRange": "Ages 6–10",
+      "duration": "8-week program",
+      "summary": "Sensory learning, plant biology, and a love of nature.",
+      "description": "Children at this age are highly curious, love hands-on activity, and are developing a sense of responsibility. Little Farmers connects them with the earth, teaching basic plant biology, food systems, and environmental stewardship through playful, hands-on activities.",
+      "whyThisAge": "Ages 6–10 are the prime years for sensory exploration and developing lifelong habits. Exposure to agriculture at this stage builds curiosity, patience, and a foundational understanding of how food is grown and where it comes from.",
+      "outcomes": [
+        "Understanding of basic plant biology and growth cycles",
+        "Responsibility through caring for living things",
+        "Awareness of sustainable food systems",
+        "Teamwork and outdoor confidence",
+        "Curiosity and love of nature"
+      ]
+    },
+    "aiExplorers": {
+      "name": "AI Explorers",
+      "ageRange": "Ages 10–14",
+      "duration": "10-week program",
+      "summary": "From consuming technology to creating with it.",
+      "description": "This age group is ready to move from consuming technology to creating with it. AI Explorers introduces digital logic, basic coding concepts, and an understanding of how artificial intelligence shapes the modern world — all through visual interfaces, games, and creative projects.",
+      "whyThisAge": "Ages 10–14 mark the transition from concrete to abstract thinking. Students at this stage can grasp cause-and-effect in code, understand algorithmic patterns, and are motivated by creativity and peer collaboration — the perfect conditions for digital learning.",
+      "outcomes": [
+        "Introduction to computational thinking and digital logic",
+        "Basic coding skills using visual and block-based tools",
+        "Understanding of how AI works in everyday life",
+        "Creative projects using digital tools",
+        "Critical evaluation of technology's impact on society"
+      ]
+    },
+    "youngEntrepreneurs": {
+      "name": "Young Entrepreneurs",
+      "ageRange": "Ages 12–16",
+      "duration": "12-week program",
+      "summary": "Business basics, financial literacy, and pitching big ideas.",
+      "description": "This age group is developing critical thinking and social awareness, and is old enough to grasp profit, loss, marketing, and customer needs. Young Entrepreneurs guides students through the business-creation process — from identifying a problem to pitching a solution to real stakeholders.",
+      "whyThisAge": "Ages 12–16 are when identity and ambition begin to solidify. Young people at this stage benefit enormously from structured entrepreneurship education that channels their energy into problem-solving, teamwork, and financial responsibility.",
+      "outcomes": [
+        "Understanding of basic business concepts and financial literacy",
+        "Design thinking and human-centred problem solving",
+        "Market research and customer discovery skills",
+        "Pitching and communication confidence",
+        "Experience running a micro-business or community project"
+      ]
+    },
+    "pathways": {
+      "name": "DreamDo Pathways",
+      "fullName": "DreamDo Pathways (Career Immersion)",
+      "ageRange": "Ages 14–18",
+      "duration": "Semester-long engagement",
+      "summary": "Industry shadowing, mentorship, and real-world problem-solving.",
+      "description": "Teenagers at this stage are actively thinking about their futures, further education, and the workforce. Pathways places high-school students into real industry environments for career exposure, mentorship by working professionals, and hands-on projects that solve genuine problems.",
+      "whyThisAge": "Ages 14–18 are a critical window for career exploration. Early industry exposure dramatically increases a young person's confidence, sense of purpose, and ability to make informed decisions about education and career paths.",
+      "outcomes": [
+        "Industry-specific knowledge and professional vocabulary",
+        "Professional network of mentors and employers",
+        "Portfolio of real-world projects",
+        "University and career application readiness",
+        "Personal brand and interview skills"
+      ]
+    }
+  }
+}

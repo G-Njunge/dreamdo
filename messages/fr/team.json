@@ -1,0 +1,24 @@
+{
+  "hero": {
+    "title": "Rencontrez l'Équipe",
+    "subtitle": "Les personnes engagées à faire rêver et agir la prochaine génération africaine."
+  },
+  "founder": {
+    "title": "Rencontrez le Fondateur",
+    "name": "Nom du Fondateur",
+    "role": "Fondateur & PDG, DreamDo",
+    "story": "DreamDo est né d'une observation simple : trop de jeunes Africains talentueux terminaient leurs études sans les compétences pratiques, la confiance ou l'exposition professionnelle nécessaires pour transformer leur potentiel en impact.",
+    "motivation": "En grandissant, j'ai vu des pairs avec un énorme potentiel être retenus non par manque d'intelligence, mais par manque d'opportunités. DreamDo est l'opportunité que je souhaitais exister — structurée, pratique et conçue pour libérer ce que les jeunes ont déjà en eux.",
+    "vision": "J'envisage un continent où le code postal d'un enfant ne détermine pas son destin — où chaque jeune personne, quelle que soit sa situation, a accès aux expériences dont elle a besoin pour construire un avenir significatif."
+  },
+  "team": {
+    "title": "Notre Équipe",
+    "placeholder": "Les biographies de l'équipe arrivent bientôt. Nous construisons quelque chose de grand — et nous recrutons !",
+    "members": [
+      { "name": "Membre 1", "role": "Coordinateur de Programme" },
+      { "name": "Membre 2", "role": "Responsable Apprentissage Numérique" },
+      { "name": "Membre 3", "role": "Mentor Agriculture & Environnement" },
+      { "name": "Membre 4", "role": "Responsable Partenariats & Communauté" }
+    ]
+  }
+}

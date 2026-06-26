@@ -1,0 +1,27 @@
+{
+  "hero": {
+    "title": "Book a Session",
+    "subtitle": "Reserve your child's spot in a DreamDo program."
+  },
+  "form": {
+    "parentName": "Parent / Guardian Full Name",
+    "childName": "Child's Full Name",
+    "email": "Email Address",
+    "phone": "Phone Number",
+    "preferredDate": "Preferred Start Date",
+    "program": "Program / Service",
+    "programOptions": {
+      "placeholder": "Select a program",
+      "littleFarmers": "Little Farmers (Ages 6–10)",
+      "aiExplorers": "AI Explorers (Ages 10–14)",
+      "youngEntrepreneurs": "Young Entrepreneurs (Ages 12–16)",
+      "pathways": "DreamDo Pathways — Career Immersion (Ages 14–18)",
+      "school": "School Partnership Enquiry",
+      "other": "Other / Not Sure Yet"
+    },
+    "message": "Additional Notes",
+    "submit": "Book Now",
+    "success": "Booking received! We'll confirm your session via email within 48 hours.",
+    "error": "Something went wrong. Please try again or contact us on WhatsApp."
+  }
+}
