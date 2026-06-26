@@ -5,6 +5,7 @@ import { motion } from "framer-motion";
 import Image from "next/image";
 import { Link } from "@/i18n/navigation";
 import AboutSection from "./AboutSection";
+import ProgramsSection from "./ProgramsSection";
 
 // ─── Types ───────────────────────────────────────────────────────────────────
 type NoteData = {
@@ -638,6 +639,7 @@ export default function HomeClient() {
           )}
         </div>
       </section>
+      </>)}
 
       </>
       )}

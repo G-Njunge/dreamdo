@@ -1,20 +1,7 @@
-/* PAGE DISABLED — temporarily commented out (single-page scroll mode)
+"use client";
 
-import type { Metadata } from "next";
-import { getTranslations } from "next-intl/server";
 import Image from "next/image";
 
-export async function generateMetadata({
-  params,
-}: {
-  params: { locale: string };
-}): Promise<Metadata> {
-  const { locale } = await params;
-  const t = await getTranslations({ locale, namespace: "programs.hero" });
-  return { title: t("title"), description: t("subtitle") };
-}
-
-// ── Card component ────────────────────────────────────────────────────────────
 function ProgramCard({
   href,
   imageSrc,
@@ -47,7 +34,6 @@ function ProgramCard({
         ...style,
       }}
     >
-      {/* Image */}
       <div style={{ flex: 1, position: "relative", minHeight: 0 }}>
         <Image
           src={imageSrc}
@@ -56,7 +42,6 @@ function ProgramCard({
           sizes="(max-width: 768px) 100vw, 50vw"
           style={{ objectFit: "cover" }}
         />
-        {/* Age badge */}
         <span
           style={{
             position: "absolute", top: 13, left: 13,
@@ -67,7 +52,6 @@ function ProgramCard({
         >
           {ageRange}
         </span>
-        {/* Arrow */}
         <div
           style={{
             position: "absolute", top: 13, right: 13,
@@ -81,7 +65,6 @@ function ProgramCard({
           </svg>
         </div>
       </div>
-      {/* Text */}
       <div style={{ padding: "13px 15px 15px", backgroundColor: "#FFFFFF", flexShrink: 0 }}>
         <p style={{ fontWeight: 700, fontSize: "clamp(0.9rem, 1.1vw, 1.05rem)", color: "#111111", margin: "0 0 4px 0" }}>
           {title}
@@ -94,26 +77,18 @@ function ProgramCard({
   );
 }
 
-// ── Page ──────────────────────────────────────────────────────────────────────
-export default async function ProgramsPage({
-  params,
-}: {
-  params: { locale: string };
-}) {
-  const { locale } = await params;
-  void locale;
-
+export default function ProgramsSection() {
   return (
-    <main
+    <section
+      id="programs"
       style={{
         fontFamily: "var(--font-poppins, 'Poppins', sans-serif)",
         backgroundColor: "#FAFBFD",
-        minHeight: "100vh",
       }}
     >
       <div style={{ maxWidth: 1200, margin: "0 auto", padding: "56px 40px 80px" }}>
 
-        {/* ── Header ── */}
+        {/* Header */}
         <div
           style={{
             display: "flex", alignItems: "flex-start",
@@ -121,7 +96,7 @@ export default async function ProgramsPage({
           }}
         >
           <div style={{ maxWidth: 520 }}>
-            <h1
+            <h2
               style={{
                 fontSize: "clamp(1.8rem, 3vw, 2.75rem)",
                 fontWeight: 700, color: "#111111",
@@ -129,7 +104,7 @@ export default async function ProgramsPage({
               }}
             >
               Pathways designed for every age
-            </h1>
+            </h2>
             <p style={{ fontSize: "clamp(0.875rem, 1.15vw, 1rem)", color: "#555555", margin: 0, lineHeight: 1.65 }}>
               Pick the pathway designed for your young doer&apos;s age group.{" "}
               <span style={{ color: "#F58220", fontWeight: 600 }}>Four programs, one mission:</span>{" "}
@@ -138,7 +113,7 @@ export default async function ProgramsPage({
           </div>
 
           <a
-            href="/"
+            href="/programs"
             style={{
               flexShrink: 0,
               display: "inline-flex", alignItems: "center", gap: 7,
@@ -156,7 +131,7 @@ export default async function ProgramsPage({
           </a>
         </div>
 
-        {/* ── Bento grid ── */}
+        {/* Bento grid */}
         <div
           style={{
             display: "grid",
@@ -166,7 +141,6 @@ export default async function ProgramsPage({
             height: "clamp(500px, 60vw, 700px)",
           }}
         >
-          {/* Little Farmers — spans both rows */}
           <ProgramCard
             href="/programs/little-farmers"
             imageSrc="/little farmer.jpeg"
@@ -177,7 +151,6 @@ export default async function ProgramsPage({
             style={{ gridRow: "1 / 3" }}
           />
 
-          {/* AI Explorers — top right */}
           <ProgramCard
             href="/programs/ai-explorers"
             imageSrc="/placeholder-hero.jpg"
@@ -187,7 +160,6 @@ export default async function ProgramsPage({
             summary="Introduction to digital logic, basic coding, how AI works, and digital creativity."
           />
 
-          {/* Bottom right — two cards side by side */}
           <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 14 }}>
             <ProgramCard
               href="/programs/young-entrepreneurs"
@@ -211,13 +183,6 @@ export default async function ProgramsPage({
         </div>
 
       </div>
-    </main>
+    </section>
   );
-}
-
-*/
-
-// Minimal stub — Next.js requires a default export from page.tsx
-export default function Page() {
-  return null;
 }

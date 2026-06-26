@@ -6,19 +6,14 @@ import { useTranslations } from "next-intl";
 import { Link, usePathname } from "@/i18n/navigation";
 import LanguageSwitcher from "./LanguageSwitcher";
 
-type DropdownKey = "about" | "services" | null;
-
 export default function Navbar() {
   const t = useTranslations("common.nav");
   const pathname = usePathname();
   const [mobileOpen, setMobileOpen] = useState(false);
-  const [dropdown, setDropdown] = useState<DropdownKey>(null);
-
-  const isActive = (href: string) => pathname === href || pathname.startsWith(href + "/");
 
   const linkClass = (href: string) =>
     `text-sm font-medium transition hover:text-brand-blue ${
-      isActive(href)
+      pathname === href || pathname.startsWith(href + "/")
         ? "text-brand-blue border-b-2 border-brand-blue pb-0.5"
         : "text-gray-700"
     }`;
@@ -41,12 +36,10 @@ export default function Navbar() {
         </Link>
 
         {/* Desktop nav */}
-        <nav className="hidden lg:flex items-center gap-5" aria-label="Main navigation">
-
+        <nav className="hidden lg:flex items-center gap-6" aria-label="Main navigation">
           <Link href="/" className={linkClass("/")}>
             {t("home")}
           </Link>
-
           <a href="/#about" className="text-sm font-medium text-gray-700 transition hover:text-brand-blue">
             {t("about")}
           </a>
@@ -71,7 +64,7 @@ export default function Navbar() {
             className="inline-flex items-center justify-center px-5 py-2 rounded-lg bg-brand-orange text-white font-semibold text-sm hover:bg-orange-600 transition whitespace-nowrap"
           >
             {t("bookSession")}
-          </a>
+          </Link>
         </div>
 
         {/* Mobile hamburger */}
@@ -113,7 +106,7 @@ export default function Navbar() {
               onClick={() => setMobileOpen(false)}
             >
               {t("bookSession")}
-            </a>
+            </Link>
           </div>
         </div>
       )}
