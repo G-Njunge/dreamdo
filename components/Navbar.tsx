@@ -6,19 +6,14 @@ import { useTranslations } from "next-intl";
 import { Link, usePathname } from "@/i18n/navigation";
 import LanguageSwitcher from "./LanguageSwitcher";
 
-type DropdownKey = "about" | "services" | null;
-
 export default function Navbar() {
   const t = useTranslations("common.nav");
   const pathname = usePathname();
   const [mobileOpen, setMobileOpen] = useState(false);
-  const [dropdown, setDropdown] = useState<DropdownKey>(null);
-
-  const isActive = (href: string) => pathname === href || pathname.startsWith(href + "/");
 
   const linkClass = (href: string) =>
     `text-sm font-medium transition hover:text-brand-blue ${
-      isActive(href)
+      pathname === href || pathname.startsWith(href + "/")
         ? "text-brand-blue border-b-2 border-brand-blue pb-0.5"
         : "text-gray-700"
     }`;
@@ -41,36 +36,27 @@ export default function Navbar() {
         </Link>
 
         {/* Desktop nav */}
-        <nav className="hidden lg:flex items-center gap-5" aria-label="Main navigation">
-
+        <nav className="hidden lg:flex items-center gap-6" aria-label="Main navigation">
           <Link href="/" className={linkClass("/")}>
             {t("home")}
           </Link>
-
           <a href="/#about" className="text-sm font-medium text-gray-700 transition hover:text-brand-blue">
             {t("about")}
           </a>
-
           <Link href="/programs" className={linkClass("/programs")}>
             {t("programs")}
           </Link>
-
-          <a href="/#gallery" className="text-sm font-medium text-gray-700 transition hover:text-brand-blue">{t("gallery")}</a>
-          <a href="/#blog" className="text-sm font-medium text-gray-700 transition hover:text-brand-blue">{t("blog")}</a>
-          <a href="/#pricing" className="text-sm font-medium text-gray-700 transition hover:text-brand-blue">Pricing</a>
-          <a href="/#contact" className="text-sm font-medium text-gray-700 transition hover:text-brand-blue">{t("contact")}</a>
-
         </nav>
 
         {/* Right controls */}
         <div className="hidden lg:flex items-center gap-4 flex-shrink-0">
           <LanguageSwitcher />
-          <a
-            href="/#contact"
+          <Link
+            href="/programs"
             className="inline-flex items-center justify-center px-5 py-2 rounded-lg bg-brand-orange text-white font-semibold text-sm hover:bg-orange-600 transition whitespace-nowrap"
           >
             {t("bookSession")}
-          </a>
+          </Link>
         </div>
 
         {/* Mobile hamburger */}
@@ -94,23 +80,25 @@ export default function Navbar() {
       {mobileOpen && (
         <div className="lg:hidden bg-white border-t border-gray-100 px-4 pb-6">
           <nav className="flex flex-col pt-4 space-y-1 text-sm font-medium">
-            <Link href="/" className="py-2.5 px-3 rounded-lg hover:bg-blue-50 text-gray-700 hover:text-brand-blue transition" onClick={() => setMobileOpen(false)}>{t("home")}</Link>
-            <a href="/#about" className="py-2.5 px-3 rounded-lg hover:bg-blue-50 text-gray-700 hover:text-brand-blue transition" onClick={() => setMobileOpen(false)}>{t("about")}</a>
-            <Link href="/programs" className="py-2.5 px-3 rounded-lg hover:bg-blue-50 text-gray-700 hover:text-brand-blue transition" onClick={() => setMobileOpen(false)}>{t("programs")}</Link>
-            <a href="/#gallery" className="py-2.5 px-3 rounded-lg hover:bg-blue-50 text-gray-700 hover:text-brand-blue transition" onClick={() => setMobileOpen(false)}>{t("gallery")}</a>
-            <a href="/#blog" className="py-2.5 px-3 rounded-lg hover:bg-blue-50 text-gray-700 hover:text-brand-blue transition" onClick={() => setMobileOpen(false)}>{t("blog")}</a>
-            <a href="/#pricing" className="py-2.5 px-3 rounded-lg hover:bg-blue-50 text-gray-700 hover:text-brand-blue transition" onClick={() => setMobileOpen(false)}>Pricing</a>
-            <a href="/#contact" className="py-2.5 px-3 rounded-lg hover:bg-blue-50 text-gray-700 hover:text-brand-blue transition" onClick={() => setMobileOpen(false)}>{t("contact")}</a>
+            <Link href="/" className="py-2.5 px-3 rounded-lg hover:bg-blue-50 text-gray-700 hover:text-brand-blue transition" onClick={() => setMobileOpen(false)}>
+              {t("home")}
+            </Link>
+            <a href="/#about" className="py-2.5 px-3 rounded-lg hover:bg-blue-50 text-gray-700 hover:text-brand-blue transition" onClick={() => setMobileOpen(false)}>
+              {t("about")}
+            </a>
+            <Link href="/programs" className="py-2.5 px-3 rounded-lg hover:bg-blue-50 text-gray-700 hover:text-brand-blue transition" onClick={() => setMobileOpen(false)}>
+              {t("programs")}
+            </Link>
           </nav>
           <div className="mt-4 pt-4 border-t border-gray-100 flex items-center justify-between">
             <LanguageSwitcher />
-            <a
-              href="/#contact"
+            <Link
+              href="/programs"
               className="inline-flex items-center justify-center px-5 py-2 rounded-lg bg-brand-orange text-white font-semibold text-sm hover:bg-orange-600 transition"
               onClick={() => setMobileOpen(false)}
             >
               {t("bookSession")}
-            </a>
+            </Link>
           </div>
         </div>
       )}
