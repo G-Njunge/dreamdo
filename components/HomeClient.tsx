@@ -5,6 +5,7 @@ import { motion } from "framer-motion";
 import Image from "next/image";
 import { Link } from "@/i18n/navigation";
 import AboutSection from "./AboutSection";
+import ProgramsSection from "./ProgramsSection";
 
 // ─── Types ───────────────────────────────────────────────────────────────────
 type NoteData = {
@@ -475,6 +476,9 @@ export default function HomeClient() {
 
       {/* ═══ ABOUT (full section with hero, mission/vision, core values, problem/solution) ═══ */}
       <AboutSection />
+
+      {/* ═══ PROGRAMS (bento-grid) ═══════════════════════════════════════════ */}
+      <ProgramsSection />
 
       {false && (<>
       {/* ═══ PROGRAMS ═══════════════════════════════════════════════════════ */}
